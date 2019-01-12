@@ -1,4 +1,4 @@
-FROM wordpress:5.0.2-php7.1-fpm
+FROM wordpress:5.0.3-php7.3-fpm
 
 RUN apt-get update && apt-get install libphp-predis && \
     pecl install apcu-beta && echo extension=apcu.so > /usr/local/etc/php/conf.d/apcu.ini && docker-php-ext-enable apcu && \
