@@ -16,6 +16,30 @@ services:
       - db-net
       - nginx-net
       - redis-net
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '5m'
+        max-file: '10'
+
+  wpcli:
+    deploy:
+      replicas: 1
+    image: cli-2.1.0-php7.3
+    volumes:
+        - ./conf/php/extra.ini:/usr/local/etc/php/conf.d/extra.ini
+        - ./conf/php/log.conf:/usr/local/etc/php-fpm.d/zz-log.conf 
+    depends_on:
+      - db
+    entrypoint: /bin/wp-cli.phar --allow-root
+    command: "--info"
+    networks:
+      - wp-network
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '5m'
+        max-file: '10'
 
   nginx:
     image: videogamearmy/nginx-wordpress-docker-sec:1.15.8
@@ -29,7 +53,9 @@ services:
     depends_on:
      - wordpress
     volumes:
-     - wordpress-data:/var/www/html/
+        - ./www:/www   
+        - ./conf/php/extra.ini:/usr/local/etc/php/conf.d/extra.ini
+        - ./conf/php/log.conf:/usr/local/etc/php-fpm.d/zz-log.conf 
     ports:
       - target: 80
         published: 80
@@ -38,6 +64,11 @@ services:
       POST_MAX_SIZE: 128m
     networks:
       - nginx-net
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '5m'
+        max-file: '10'
 
   redis:
     image: redis:5.0.3-alpine
@@ -49,21 +80,32 @@ services:
       - redis-net
     volumes:
       - redis-data:/data
-
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '5m'
+        max-file: '10'
   db:
     image: mysql:8.0.13
     deploy:
       replicas: 1
       restart_policy:
         condition: on-failure
+    volumes:
+      - ./backups:/backups
+      - ./conf/mariadb:/etc/mysql/conf.d
+      - ./db-data:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/db_root_password
-      MYSQL_DATABASE: wordpress
+      - LOG_LEVEL=info
+      - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db_root_password
+      - MYSQL_PASSWORD_FILE=/run/secrets/db_password
     networks:
       - db-net
-    volumes:
-      - db-data:/var/lib/mysql
-
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '5m'
+        max-file: '10'
 networks:
   db-net:
     driver: overlay
