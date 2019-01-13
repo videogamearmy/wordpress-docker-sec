@@ -19,7 +19,8 @@ services:
       options:
         max-size: '5m'
         max-file: '10'
-
+     secrets:
+       - db_password
   wpcli:
     deploy:
       replicas: 1
@@ -101,6 +102,10 @@ services:
       - MYSQL_PASSWORD_FILE=/run/secrets/db_password
     networks:
       - wp-net
+    secrets:
+      - db_password
+      - db_root_password
+      
 networks:
   wp-net:
     driver: overlay
