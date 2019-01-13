@@ -29,8 +29,8 @@ services:
         condition: any
     image: wordpress:cli-2.1.0-php7.3
     volumes:
-        - ./conf/php/extra.ini:/usr/local/etc/php/conf.d/extra.ini
-        - ./conf/php/log.conf:/usr/local/etc/php-fpm.d/zz-log.conf 
+        - conf/php/extra.ini:/usr/local/etc/php/conf.d/extra.ini
+        - conf/php/log.conf:/usr/local/etc/php-fpm.d/zz-log.conf 
     depends_on:
       - db
     entrypoint: /bin/wp-cli.phar --allow-root
@@ -55,9 +55,8 @@ services:
     depends_on:
       - wordpress
     volumes:
-        - ./www:/www   
-        - ./conf/php/extra.ini:/usr/local/etc/php/conf.d/custom.ini
-        - ./conf/php/log.conf:/usr/local/etc/php-fpm.d/zz-log.conf 
+        - conf/php/custom.ini:/usr/local/etc/php/conf.d/custom.ini
+        - conf/php/log.conf:/usr/local/etc/php-fpm.d/zz-log.conf 
     ports:
       - target: 80
         published: 80
