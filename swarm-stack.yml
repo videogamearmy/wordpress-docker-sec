@@ -23,6 +23,8 @@ services:
   wpcli:
     deploy:
       replicas: 1
+      restart_policy:
+        condition: any
     image: wordpress:cli-2.1.0-php7.3
     volumes:
         - ./conf/php/extra.ini:/usr/local/etc/php/conf.d/extra.ini
