@@ -21,7 +21,7 @@ services:
         max-file: '10'
     secrets:
       - db_password
-      
+
   wpcli:
     deploy:
       replicas: 1
@@ -53,10 +53,10 @@ services:
         parallelism: 2
         delay: 10s
     depends_on:
-     - wordpress
+      - wordpress
     volumes:
         - ./www:/www   
-        - ./conf/php/extra.ini:/usr/local/etc/php/conf.d/extra.ini
+        - ./conf/php/extra.ini:/usr/local/etc/php/conf.d/custom.ini
         - ./conf/php/log.conf:/usr/local/etc/php-fpm.d/zz-log.conf 
     ports:
       - target: 80
