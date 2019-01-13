@@ -11,11 +11,9 @@ services:
     environment:
       WORDPRESS_DB_PASSWORD_FILE: /run/secrets/db_password
     volumes:
-      - wordpress-data:/var/www/html
+      - wp-data:/var/www/html
     networks:
-      - db-net
-      - nginx-net
-      - redis-net
+      - wp-net
     logging:
       driver: 'json-file'
       options:
@@ -34,7 +32,7 @@ services:
     entrypoint: /bin/wp-cli.phar --allow-root
     command: "--info"
     networks:
-      - wp-network
+      - wp-net
     logging:
       driver: 'json-file'
       options:
@@ -85,6 +83,7 @@ services:
       options:
         max-size: '5m'
         max-file: '10'
+
   db:
     image: mysql:8.0.13
     deploy:
@@ -100,14 +99,14 @@ services:
       - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db_root_password
       - MYSQL_PASSWORD_FILE=/run/secrets/db_password
     networks:
-      - db-net
+      - wp-net
     logging:
       driver: 'json-file'
       options:
         max-size: '5m'
         max-file: '10'
 networks:
-  db-net:
+  wp-net:
     driver: overlay
   nginx-net:
     driver: overlay
@@ -121,6 +120,6 @@ secrets:
     external: true
 
 volumes:
-  wordpress-data:
+  wp-data:
   redis-data:
   db-data:
