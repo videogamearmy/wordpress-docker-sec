@@ -5,6 +5,9 @@ set -euo pipefail
 #    ie: file_env 'XYZ_DB_PASSWORD' 'example'
 # (will allow for "$XYZ_DB_PASSWORD_FILE" to fill in the value of
 #  "$XYZ_DB_PASSWORD" from a file, especially for Docker's secrets feature)
+
+echo "------ docker-entrypoint.sh ------"
+
 file_env() {
 	local var="$1"
 	local fileVar="${var}_FILE"
@@ -103,17 +106,17 @@ if [[ "$1" == apache2* ]] || [ "$1" == php-fpm ]; then
 	done
 
 	# linking backwards-compatibility
-	if [ -n "${!MYSQL_ENV_MYSQL_*}" ]; then
-		haveConfig=1
-		# host defaults to "mysql" below if unspecified
-		: "${WORDPRESS_DB_USER:=${MYSQL_ENV_MYSQL_USER:-root}}"
-		if [ "$WORDPRESS_DB_USER" = 'root' ]; then
-			: "${WORDPRESS_DB_PASSWORD:=${MYSQL_ENV_MYSQL_ROOT_PASSWORD:-}}"
-		else
-			: "${WORDPRESS_DB_PASSWORD:=${MYSQL_ENV_MYSQL_PASSWORD:-}}"
-		fi
-		: "${WORDPRESS_DB_NAME:=${MYSQL_ENV_MYSQL_DATABASE:-}}"
-	fi
+	#if [ -n "${!MYSQL_ENV_MYSQL_*}" ]; then
+	#	haveConfig=1
+	#	# host defaults to "mysql" below if unspecified
+	#	: "${WORDPRESS_DB_USER:=${MYSQL_ENV_MYSQL_USER:-root}}"
+	#	if [ "$WORDPRESS_DB_USER" = 'root' ]; then
+	#		: "${WORDPRESS_DB_PASSWORD:=${MYSQL_ENV_MYSQL_ROOT_PASSWORD:-}}"
+	#	else
+	#		: "${WORDPRESS_DB_PASSWORD:=${MYSQL_ENV_MYSQL_PASSWORD:-}}"
+	#	fi
+	#	: "${WORDPRESS_DB_NAME:=${MYSQL_ENV_MYSQL_DATABASE:-}}"
+	#fi
 
 	# only touch "wp-config.php" if we have environment-supplied configuration values
 	if [ "$haveConfig" ]; then
