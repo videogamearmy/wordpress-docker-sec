@@ -23,7 +23,7 @@ services:
   wpcli:
     deploy:
       replicas: 1
-    image: cli-2.1.0-php7.3
+    image: wordpress:cli-2.1.0-php7.3
     volumes:
         - ./conf/php/extra.ini:/usr/local/etc/php/conf.d/extra.ini
         - ./conf/php/log.conf:/usr/local/etc/php-fpm.d/zz-log.conf 
