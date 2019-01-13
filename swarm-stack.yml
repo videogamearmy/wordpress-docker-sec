@@ -94,7 +94,7 @@ services:
         condition: any
     volumes:
       - ./backups:/backups
-      - ./conf/mariadb:/etc/mysql/conf.d
+      - ./conf/mysql/conf.d:/etc/mysql/conf.d
       - ./db-data:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db_root_password
