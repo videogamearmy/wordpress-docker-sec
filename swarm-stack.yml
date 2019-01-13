@@ -5,7 +5,7 @@ services:
     deploy:
       replicas: 1
       restart_policy:
-        condition: on-failure
+        condition: unless-stopped
     depends_on:
       - db
     environment:
@@ -43,10 +43,11 @@ services:
     image: videogamearmy/nginx-wordpress-docker-sec:1.15.8
     deploy:
       replicas: 1
+      restart_policy:
+        condition: unless-stopped
       update_config:
         parallelism: 2
         delay: 10s
-    restart: 'unless-stopped'
     depends_on:
      - wordpress
     volumes:
@@ -72,7 +73,7 @@ services:
     deploy:
       replicas: 1
       restart_policy:
-        condition: on-failure
+        condition: unless-stopped
     networks:
       - redis-net
     volumes:
@@ -87,7 +88,8 @@ services:
     image: mysql:8.0.13
     deploy:
       replicas: 1
-    restart: 'unless-stopped'
+      restart_policy:
+        condition: unless-stopped
     volumes:
       - ./backups:/backups
       - ./conf/mariadb:/etc/mysql/conf.d
