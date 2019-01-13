@@ -102,11 +102,6 @@ services:
       - MYSQL_PASSWORD_FILE=/run/secrets/db_password
     networks:
       - wp-net
-    logging:
-      driver: 'json-file'
-      options:
-        max-size: '5m'
-        max-file: '10'
 networks:
   wp-net:
     driver: overlay
