@@ -97,7 +97,6 @@ services:
       - ./conf/mariadb:/etc/mysql/conf.d
       - ./db-data:/var/lib/mysql
     environment:
-      - LOG_LEVEL=info
       - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db_root_password
       - MYSQL_PASSWORD_FILE=/run/secrets/db_password
     networks:

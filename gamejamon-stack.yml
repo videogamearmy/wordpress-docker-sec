@@ -1,0 +1,67 @@
+version: '3.2'
+services:
+  web:
+    deploy:
+      replicas: 1
+    image: wordpress:5.0.2-php7.2-fpm-alpine
+    depends_on: db
+    restart: 'unless-stopped'
+    volumes:
+        - ./www:/www   
+        - ./conf/php/extra.ini:/usr/local/etc/php/conf.d/extra.ini
+        - ./conf/php/log.conf:/usr/local/etc/php-fpm.d/zz-log.conf 
+    networks:
+      - wp-network  
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '5m'
+        max-file: '10'
+
+  db:
+    deploy:
+      replicas: 1
+    image: mariadb:10.1.19
+    restart: 'unless-stopped'
+    ports:
+      - '3306:3306'
+    volumes:
+      - /backups:/backups
+      - ./conf/mysql/conf.d:/etc/mysql/conf.d
+    environment:
+      - LOG_LEVEL=info
+      - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/mysql_root_password
+      - MYSQL_PASSWORD_FILE=/run/secrets/mysql_password
+    networks:
+      - wp-network
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '5m'
+        max-file: '10'
+
+  wpcli:
+    deploy:
+      replicas: 1
+    image: cli-2.1.0-php7.3
+    depends_on: db
+    volumes:
+        - ./conf/php/extra.ini:/usr/local/etc/php/conf.d/extra.ini
+        - ./conf/php/log.conf:/usr/local/etc/php-fpm.d/zz-log.conf 
+    entrypoint: /bin/wp-cli.phar --allow-root
+    command: "--info"
+    networks:
+      - wp-network
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '5m'
+        max-file: '10'
+
+volumes:
+  db-data:
+
+networks:
+    wp-network:
+      external:
+        name: bridge
