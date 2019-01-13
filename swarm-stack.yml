@@ -5,7 +5,7 @@ services:
     deploy:
       replicas: 1
       restart_policy:
-        condition: unless-stopped
+        condition: any
     depends_on:
       - db
     environment:
@@ -44,7 +44,7 @@ services:
     deploy:
       replicas: 1
       restart_policy:
-        condition: unless-stopped
+        condition: any
       update_config:
         parallelism: 2
         delay: 10s
@@ -73,7 +73,7 @@ services:
     deploy:
       replicas: 1
       restart_policy:
-        condition: unless-stopped
+        condition: any
     networks:
       - redis-net
     volumes:
@@ -89,7 +89,7 @@ services:
     deploy:
       replicas: 1
       restart_policy:
-        condition: unless-stopped
+        condition: any
     volumes:
       - ./backups:/backups
       - ./conf/mariadb:/etc/mysql/conf.d
