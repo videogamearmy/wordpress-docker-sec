@@ -13,3 +13,16 @@
 	Tags: grid-layout, footer-widgets, blog, food-and-drink, news
 
 */
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea, select, .select2-container--default .select2-selection--single {
+	background: #333;
+}
+
+.wp-caption-text{
+	color: red
+}
+
+#off-canvas-body, #main-nav-bar, 
+.main-ul-nav ul li .nav-sub-wrap .nsw{
+	background: #000
+}
