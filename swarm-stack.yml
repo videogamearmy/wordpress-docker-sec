@@ -55,7 +55,8 @@ services:
     depends_on:
       - wordpress
     volumes:
-      - ./conf/nginx:/etc/nginx/conf.d
+      - ./wp-data:/var/www/html
+      - ./conf/nginx:/etc/nginx/sites-enabled
     ports:
       - target: 80
         published: 80
