@@ -1,67 +1,130 @@
-version: '3.2'
+version: "3.7"
 services:
-  web:
+  wordpress:
+    image: videogamearmy/wordpress-docker-sec:5.0.3
     deploy:
       replicas: 1
-    image: wordpress:5.0.2-php7.2-fpm-alpine
-    depends_on: db
-    restart: 'unless-stopped'
-    volumes:
-        - ./www:/www   
-        - ./conf/php/extra.ini:/usr/local/etc/php/conf.d/extra.ini
-        - ./conf/php/log.conf:/usr/local/etc/php-fpm.d/zz-log.conf 
-    networks:
-      - wp-network  
-    logging:
-      driver: 'json-file'
-      options:
-        max-size: '5m'
-        max-file: '10'
-
-  db:
-    deploy:
-      replicas: 1
-    image: mariadb:10.1.19
-    restart: 'unless-stopped'
-    ports:
-      - '3306:3306'
-    volumes:
-      - /backups:/backups
-      - ./conf/mysql/conf.d:/etc/mysql/conf.d
+      restart_policy:
+        condition: any
+    depends_on:
+      - mysql
     environment:
-      - LOG_LEVEL=info
-      - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/mysql_root_password
-      - MYSQL_PASSWORD_FILE=/run/secrets/mysql_password
+      WORDPRESS_DB_PASSWORD_FILE: /run/secrets/db_password
+    volumes:
+      - ./gamejamon_www:/var/www/html
     networks:
-      - wp-network
+      - wp-net
     logging:
       driver: 'json-file'
       options:
         max-size: '5m'
         max-file: '10'
+    secrets:
+      - db_password
 
   wpcli:
     deploy:
       replicas: 1
-    image: cli-2.1.0-php7.3
-    depends_on: db
+      restart_policy:
+        condition: any
+    image: wordpress:cli-2.1.0-php7.3
     volumes:
-        - ./conf/php/extra.ini:/usr/local/etc/php/conf.d/extra.ini
+        - ./conf/php/custom.ini:/usr/local/etc/php/conf.d/custom.ini
         - ./conf/php/log.conf:/usr/local/etc/php-fpm.d/zz-log.conf 
+    depends_on:
+      - mysql
     entrypoint: /bin/wp-cli.phar --allow-root
     command: "--info"
     networks:
-      - wp-network
+      - wp-net
     logging:
       driver: 'json-file'
       options:
         max-size: '5m'
         max-file: '10'
 
-volumes:
-  db-data:
+  nginx:
+    image: videogamearmy/nginx-wordpress-docker-sec:1.15.8
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: any
+      update_config:
+        parallelism: 2
+        delay: 10s
+    depends_on:
+      - wordpress
+    volumes:
+      - ./gamejamon_www:/var/www/html
+      - ./conf/nginx:/etc/nginx/sites-enabled
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    environment:
+      POST_MAX_SIZE: 128m
+    networks:
+      - nginx-net
+      - wp-net
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '5m'
+        max-file: '10'
+
+  redis:
+    image: redis:5.0.3-alpine
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: any
+    networks:
+      - redis-net
+    volumes:
+      - ./redis-data:/data
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '5m'
+        max-file: '10'
+
+  mysql:
+    image: mysql:8.0.13
+    command: ['--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci','--default-authentication-plugin=mysql_native_password']
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: any
+    volumes:
+      - ./backups:/backups
+      - ./conf/mysql/conf.d:/etc/mysql/conf.d
+      - ./gamejamon_db:/var/lib/mysql
+    environment:
+      - MYSQL_DATABASE=gamejamon_db
+      - MYSQL_USER=pixeliko
+      - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db_root_password
+      - MYSQL_PASSWORD_FILE=/run/secrets/db_password
+    networks:
+      - wp-net
+    secrets:
+      - db_password
+      - db_root_password
 
 networks:
-    wp-network:
-      external:
-        name: bridge
+  wp-net:
+    driver: overlay
+  nginx-net:
+    driver: overlay
+  redis-net:
+    driver: overlay
+
+secrets:
+  db_password:
+    external: true
+  db_root_password:
+    external: true
+
+volumes:
+  wp-data:
+  redis-data:
+  db-data:

@@ -1,0 +1,6454 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Curated\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-02 23:29+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Maha Themes\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:105 author.php:104 category.php:104
+#: includes/composer/blocked-1.php:80 includes/composer/blocked-2.php:66
+#: includes/composer/blocked-3.php:64 includes/composer/blocked-4.php:87
+#: includes/composer/blocked-5.php:114 includes/composer/blocked-6.php:66
+#: includes/composer/blocked-7.php:66 includes/composer/regular-slider.php:83
+#: index.php:83 search.php:80 searchresult.php:39
+msgid "Sorry, no posts were found"
+msgstr ""
+
+#: author.php:62
+msgid "Posts by"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:18
+#: bbpress/content-single-topic-lead.php:90
+msgid "Creator"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:22
+#: bbpress/content-single-topic-lead.php:94 bbpress/loop-topics.php:19
+#: buddypress/forums/forums-loop.php:52
+msgid "Topic"
+msgstr ""
+
+#: bbpress/content-statistics.php:17
+msgid "Registered Users"
+msgstr ""
+
+#: bbpress/content-statistics.php:22
+msgid "Forums"
+msgstr ""
+
+#: bbpress/content-statistics.php:27 bbpress/loop-forums.php:20
+#: bbpress/loop-single-forum.php:80
+msgid "Topics"
+msgstr ""
+
+#: bbpress/content-statistics.php:32 bbpress/loop-forums.php:20
+#: bbpress/loop-single-forum.php:81
+msgid "Replies"
+msgstr ""
+
+#: bbpress/content-statistics.php:37
+msgid "Topic Tags"
+msgstr ""
+
+#: bbpress/content-statistics.php:44
+msgid "Empty Topic Tags"
+msgstr ""
+
+#: bbpress/content-statistics.php:53
+msgid "Hidden Topics"
+msgstr ""
+
+#: bbpress/content-statistics.php:64
+msgid "Hidden Replies"
+msgstr ""
+
+#: bbpress/feedback-logged-in.php:13
+msgid "You are already logged in."
+msgstr ""
+
+#: bbpress/feedback-no-access.php:13
+#: includes/acf/core/controllers/field_group.php:733
+msgid "Private"
+msgstr ""
+
+#: bbpress/feedback-no-access.php:16
+msgid "You do not have permission to view this forum."
+msgstr ""
+
+#: bbpress/feedback-no-forums.php:13
+msgid "Oh bother! No forums were found here!"
+msgstr ""
+
+#: bbpress/feedback-no-replies.php:13
+msgid "Oh bother! No replies were found here!"
+msgstr ""
+
+#: bbpress/feedback-no-search.php:13
+msgid "Oh bother! No search results were found here!"
+msgstr ""
+
+#: bbpress/feedback-no-topics.php:13
+msgid "Oh bother! No topics were found here!"
+msgstr ""
+
+#: bbpress/form-anonymous.php:21
+msgid "Name (required):"
+msgstr ""
+
+#: bbpress/form-anonymous.php:26
+msgid "Mail (will not be published) (required):"
+msgstr ""
+
+#: bbpress/form-anonymous.php:31
+msgid "Website:"
+msgstr ""
+
+#: bbpress/form-forum.php:32 bbpress/form-topic.php:33
+#, php-format
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-forum.php:34
+#, php-format
+msgid "Create New Forum in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-forum.php:34
+msgid "Create New Forum"
+msgstr ""
+
+#: bbpress/form-forum.php:43
+msgid ""
+"This forum is closed to new content, however your account still allows you "
+"to do so."
+msgstr ""
+
+#: bbpress/form-forum.php:51 bbpress/form-reply.php:43
+#: bbpress/form-topic.php:52
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: bbpress/form-forum.php:63
+#, php-format
+msgid "Forum Name (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-forum.php:78 bbpress/form-reply.php:63
+#: bbpress/form-topic.php:81
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+
+#: bbpress/form-forum.php:87
+msgid "Forum Type:"
+msgstr ""
+
+#: bbpress/form-forum.php:96
+msgid "Status:"
+msgstr ""
+
+#: bbpress/form-forum.php:105
+msgid "Visibility:"
+msgstr ""
+
+#: bbpress/form-forum.php:114
+msgid "Parent Forum:"
+msgstr ""
+
+#: bbpress/form-forum.php:119
+msgid "(No Parent)"
+msgstr ""
+
+#: bbpress/form-forum.php:134
+msgid "POST FORUM"
+msgstr ""
+
+#: bbpress/form-forum.php:157
+#, php-format
+msgid "The forum &#8216;%s&#8217; is closed to new content."
+msgstr ""
+
+#: bbpress/form-forum.php:165
+msgid "You cannot create new forums."
+msgstr ""
+
+#: bbpress/form-forum.php:165
+msgid "You must be logged in to create new forums."
+msgstr ""
+
+#: bbpress/form-protected.php:14
+msgid "Protected"
+msgstr ""
+
+#: bbpress/form-reply-move.php:25
+msgid ""
+"You can either make this reply a new topic with a new title, or merge it "
+"into an existing topic."
+msgstr ""
+
+#: bbpress/form-reply-move.php:29
+msgid ""
+"If you choose an existing topic, replies will be ordered by the time and "
+"date they were created."
+msgstr ""
+
+#: bbpress/form-reply-move.php:33
+msgid "Move Method"
+msgstr ""
+
+#: bbpress/form-reply-move.php:37 bbpress/form-topic-split.php:39
+#, php-format
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr ""
+
+#: bbpress/form-reply-move.php:38
+#, php-format
+msgid "Moved: %s"
+msgstr ""
+
+#: bbpress/form-reply-move.php:45 bbpress/form-topic-split.php:47
+msgid "Use an existing topic in this forum:"
+msgstr ""
+
+#: bbpress/form-reply-move.php:64 bbpress/form-topic-merge.php:87
+#: bbpress/form-topic-split.php:91
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr ""
+
+#: bbpress/form-reply-move.php:68 bbpress/form-topic-merge.php:91
+#: bbpress/form-topic-split.php:95
+msgid "Submit"
+msgstr ""
+
+#: bbpress/form-reply-move.php:81
+msgid "You do not have the permissions to edit this reply!"
+msgstr ""
+
+#: bbpress/form-reply-move.php:81
+msgid "You cannot edit this reply."
+msgstr ""
+
+#: bbpress/form-reply.php:28
+msgid "LEAVE A REPLY"
+msgstr ""
+
+#: bbpress/form-reply.php:35
+msgid ""
+"This topic is marked as closed to new replies, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+#: bbpress/form-reply.php:74 bbpress/form-topic.php:92
+msgid "Topic Tags:"
+msgstr ""
+
+#: bbpress/form-reply.php:92 bbpress/form-topic.php:155
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:96 bbpress/form-topic.php:159
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:113 bbpress/form-topic.php:175
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: bbpress/form-reply.php:117 bbpress/form-topic.php:179
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: bbpress/form-reply.php:132
+msgid "POST COMMENT"
+msgstr ""
+
+#: bbpress/form-reply.php:157
+#, php-format
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+#: bbpress/form-reply.php:165 bbpress/form-topic.php:217
+#, php-format
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: bbpress/form-reply.php:173
+msgid "You cannot reply to this topic."
+msgstr ""
+
+#: bbpress/form-reply.php:173
+msgid "You must be logged in to reply to this topic."
+msgstr ""
+
+#: bbpress/form-search.php:15
+msgid "Search for:"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:22
+#, php-format
+msgid "Merge topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-merge.php:27
+msgid ""
+"Select the topic to merge this one into. The destination topic will remain "
+"the lead topic, and this one will change into a reply."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:28
+msgid ""
+"To keep this topic as the lead, go to the other topic and use the merge tool "
+"from there instead."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:32
+msgid ""
+"All replies within both topics will be merged chronologically. The order of "
+"the merged replies is based on the time and date they were posted. If the "
+"destination topic was created after this one, it's post date will be updated "
+"to second earlier than this one."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:36
+msgid "Destination"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:40
+msgid "Merge with this topic:"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:54
+msgid "There are no other topics in this forum to merge with."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:62 bbpress/form-topic-split.php:66
+msgid "Topic Extras"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:69
+msgid "Merge topic subscribers"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:74
+msgid "Merge topic favoriters"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:79
+msgid "Merge topic tags"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:104 bbpress/form-topic-split.php:108
+msgid "You do not have the permissions to edit this topic!"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:104 bbpress/form-topic-split.php:108
+msgid "You cannot edit this topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:22
+#, php-format
+msgid "Split topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-split.php:27
+msgid ""
+"When you split a topic, you are slicing it in half starting with the reply "
+"you just selected. Choose to use that reply as a new topic with a new title, "
+"or merge those replies into an existing topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:31
+msgid ""
+"If you use the existing topic option, replies within both topics will be "
+"merged chronologically. The order of the merged replies is based on the time "
+"and date they were posted."
+msgstr ""
+
+#: bbpress/form-topic-split.php:35
+msgid "Split Method"
+msgstr ""
+
+#: bbpress/form-topic-split.php:40
+#, php-format
+msgid "Split: %s"
+msgstr ""
+
+#: bbpress/form-topic-split.php:73
+msgid "Copy subscribers to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:78
+msgid "Copy favoriters to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:83
+msgid "Copy topic tags to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:18
+#, php-format
+msgid "Manage Tag: \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-tag.php:22
+msgid "Rename"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:25
+msgid "Leave the slug empty to have one automatically generated."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:29
+msgid ""
+"Changing the slug affects its permalink. Any links to the old slug will stop "
+"working."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:35
+msgid "Name:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:40
+msgid "Slug:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:59
+msgid "Merge"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:62
+msgid "Merging tags together cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:68
+msgid "Existing tag:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:73
+#, php-format
+msgid ""
+"Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:88 buddypress/activity/comment.php:42
+#: buddypress/members/single/messages/messages-loop.php:101
+#: buddypress/members/single/messages/single.php:44
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:704
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:793
+#: includes/acf/add-ons/acf-repeater/repeater.php:474
+#: includes/acf/core/views/meta_box_fields.php:110
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:167
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:220
+msgid "Delete"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:91
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:94
+msgid "Deleting a tag cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:95
+msgid "Any links to this tag will no longer function."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:101
+#, php-format
+msgid ""
+"Are you sure you want to delete the \"%s\" tag? This is permanent and cannot "
+"be undone."
+msgstr ""
+
+#: bbpress/form-topic.php:35
+msgid "Create New Topic"
+msgstr ""
+
+#: bbpress/form-topic.php:44
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+#: bbpress/form-topic.php:66
+#, php-format
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-topic.php:105
+msgid "Forum:"
+msgstr ""
+
+#: bbpress/form-topic.php:108
+msgid "(No Forum)"
+msgstr ""
+
+#: bbpress/form-topic.php:124
+msgid "Topic Type:"
+msgstr ""
+
+#: bbpress/form-topic.php:136
+msgid "Topic Status:"
+msgstr ""
+
+#: bbpress/form-topic.php:194
+msgid "POST TOPIC"
+msgstr ""
+
+#: bbpress/form-topic.php:225
+msgid "You cannot create new topics."
+msgstr ""
+
+#: bbpress/form-topic.php:225
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: bbpress/form-user-edit.php:14 bbpress/form-user-edit.php:19
+#: buddypress/members/single/profile/profile-wp.php:35
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:729
+#: includes/acf/core/controllers/field_groups.php:419
+#: includes/acf/core/fields/file.php:109
+msgid "Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:24
+msgid "First Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:29
+msgid "Last Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:34
+msgid "Nickname"
+msgstr ""
+
+#: bbpress/form-user-edit.php:39
+msgid "Display Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:49 bbpress/form-user-edit.php:52
+msgid "Contact Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:57
+#: buddypress/members/single/profile/profile-wp.php:53 comments.php:96
+msgid "Website"
+msgstr ""
+
+#: bbpress/form-user-edit.php:74 bbpress/form-user-edit.php:77
+msgid "About Yourself"
+msgstr ""
+
+#: bbpress/form-user-edit.php:74 bbpress/form-user-edit.php:77
+msgid "About the user"
+msgstr ""
+
+#: bbpress/form-user-edit.php:82
+msgid "Biographical Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:90 bbpress/form-user-edit.php:93
+msgid "Account"
+msgstr ""
+
+#: bbpress/form-user-edit.php:98 buddypress/members/register.php:76
+#: includes/options/ReduxCore/inc/fields/password/field_password.php:63
+#: plugins/login-with-ajax/default/widget_out.php:12
+#: plugins/login-with-ajax/default/widget_out.php:68
+msgid "Username"
+msgstr ""
+
+#: bbpress/form-user-edit.php:103 includes/acf/core/fields/email.php:19
+msgid "Email"
+msgstr ""
+
+#: bbpress/form-user-edit.php:115
+#, php-format
+msgid ""
+"There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s"
+"\">Cancel</a>"
+msgstr ""
+
+#: bbpress/form-user-edit.php:124
+#: buddypress/members/single/settings/general.php:25
+msgid "New Password"
+msgstr ""
+
+#: bbpress/form-user-edit.php:127
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+
+#: bbpress/form-user-edit.php:130
+msgid "Type your new password again."
+msgstr ""
+
+#: bbpress/form-user-edit.php:133
+msgid ""
+"Your password should be at least ten characters long. Use upper and lower "
+"case letters, numbers, and symbols to make it even stronger."
+msgstr ""
+
+#: bbpress/form-user-edit.php:143 bbpress/form-user-edit.php:146
+msgid "User Role"
+msgstr ""
+
+#: bbpress/form-user-edit.php:153
+msgid "Network Role"
+msgstr ""
+
+#: bbpress/form-user-edit.php:156
+msgid "Grant this user super admin privileges for the Network."
+msgstr ""
+
+#: bbpress/form-user-edit.php:173
+#: includes/options/ReduxCore/templates/panel/footer.tpl.php:57
+msgid "Save Changes"
+msgstr ""
+
+#: bbpress/form-user-edit.php:178
+msgid "Update Profile"
+msgstr ""
+
+#: bbpress/form-user-edit.php:178
+msgid "Update User"
+msgstr ""
+
+#: bbpress/form-user-login.php:14 bbpress/form-user-login.php:28
+msgid "Log In"
+msgstr ""
+
+#: bbpress/form-user-login.php:36
+msgid "Remember Me"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:14
+msgid "Lost Password"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:17
+msgid "Username or Email"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:25
+msgid "Reset My Password"
+msgstr ""
+
+#: bbpress/form-user-register.php:14
+msgid "Create an Account"
+msgstr ""
+
+#: bbpress/form-user-register.php:17
+msgid "Your username must be unique, and cannot be changed later."
+msgstr ""
+
+#: bbpress/form-user-register.php:18
+msgid ""
+"We use your email address to email you a secure password and verify your "
+"account."
+msgstr ""
+
+#: bbpress/form-user-register.php:34 header.php:68 header.php:70
+msgid "Register"
+msgstr ""
+
+#: bbpress/form-user-roles.php:13
+msgid "Blog Role"
+msgstr ""
+
+#: bbpress/form-user-roles.php:20
+msgid "Forum Role"
+msgstr ""
+
+#: bbpress/loop-forums.php:19
+msgid "Forum"
+msgstr ""
+
+#: bbpress/loop-search-forum.php:28
+msgid "Forum: "
+msgstr ""
+
+#: bbpress/loop-search-forum.php:32
+#, php-format
+msgid "Last updated %s"
+msgstr ""
+
+#: bbpress/loop-search-reply.php:32
+msgid "In reply to: "
+msgstr ""
+
+#: bbpress/loop-search-topic.php:28
+msgid "Topic: "
+msgstr ""
+
+#: bbpress/loop-search-topic.php:34
+msgid "in group forum "
+msgstr ""
+
+#: bbpress/loop-search-topic.php:38
+msgid "in forum "
+msgstr ""
+
+#: bbpress/loop-single-forum.php:34 buddypress/forums/forums-loop.php:54
+msgid "Freshness"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:35
+#, php-format
+msgid "Started by: %1$s"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:43
+#, php-format
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: bbpress/loop-topics.php:20 buddypress/forums/forums-loop.php:53
+msgid "Posts"
+msgstr ""
+
+#: bbpress/user-details.php:31 bbpress/user-profile.php:15
+msgid "Profile"
+msgstr ""
+
+#: bbpress/user-details.php:37
+msgid "Topics Started"
+msgstr ""
+
+#: bbpress/user-details.php:43
+msgid "Replies Created"
+msgstr ""
+
+#: bbpress/user-details.php:50
+msgid "Favorites"
+msgstr ""
+
+#: bbpress/user-details.php:60
+msgid "Subscriptions"
+msgstr ""
+
+#: bbpress/user-details.php:67 functions.php:335
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:790
+#: includes/acf/add-ons/acf-repeater/repeater.php:471
+#: includes/acf/core/fields/image.php:91
+#: includes/acf/core/views/meta_box_fields.php:108
+msgid "Edit"
+msgstr ""
+
+#: bbpress/user-favorites.php:15
+msgid "Favorite Forum Topics"
+msgstr ""
+
+#: bbpress/user-favorites.php:26
+msgid "You currently have no favorite topics."
+msgstr ""
+
+#: bbpress/user-favorites.php:26
+msgid "This user has no favorite topics."
+msgstr ""
+
+#: bbpress/user-profile.php:24
+#, php-format
+msgid "Forum Role: %s"
+msgstr ""
+
+#: bbpress/user-profile.php:25
+#, php-format
+msgid "Topics Started: %s"
+msgstr ""
+
+#: bbpress/user-profile.php:26
+#, php-format
+msgid "Replies Created: %s"
+msgstr ""
+
+#: bbpress/user-replies-created.php:15
+msgid "Forum Replies Created"
+msgstr ""
+
+#: bbpress/user-replies-created.php:26
+msgid "You have not replied to any topics."
+msgstr ""
+
+#: bbpress/user-replies-created.php:26
+msgid "This user has not replied to any topics."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:19
+msgid "Subscribed Forums"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:28
+msgid "You are not currently subscribed to any forums."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:28
+msgid "This user is not currently subscribed to any forums."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:34
+msgid "Subscribed Topics"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:45
+msgid "You are not currently subscribed to any topics."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:45
+msgid "This user is not currently subscribed to any topics."
+msgstr ""
+
+#: bbpress/user-topics-created.php:15
+msgid "Forum Topics Started"
+msgstr ""
+
+#: bbpress/user-topics-created.php:26
+msgid "You have not created any topics."
+msgstr ""
+
+#: bbpress/user-topics-created.php:26
+msgid "This user has not created any topics."
+msgstr ""
+
+#: buddypress/activity/activity-loop.php:41
+msgid "Load More"
+msgstr ""
+
+#: buddypress/activity/activity-loop.php:55
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#: buddypress/activity/comment.php:27
+#, php-format
+msgid ""
+"<a href=\"%1$s\">%2$s</a> <a href=\"%3$s\" class=\"activity-time-since"
+"\"><span class=\"time-since\">replied %4$s</span></a>"
+msgstr ""
+
+#: buddypress/activity/comment.php:36
+#: buddypress/groups/single/forum/edit.php:23
+msgid "Reply"
+msgstr ""
+
+#: buddypress/activity/entry.php:59
+msgid "View Conversation"
+msgstr ""
+
+#: buddypress/activity/entry.php:67
+#, php-format
+msgid "Comment %s"
+msgstr ""
+
+#: buddypress/activity/entry.php:75
+msgid "Favorite"
+msgstr ""
+
+#: buddypress/activity/entry.php:79
+msgid "Remove Favorite"
+msgstr ""
+
+#: buddypress/activity/entry.php:125
+msgid "Cancel"
+msgstr ""
+
+#: buddypress/activity/index.php:55 buddypress/members/index.php:53
+#, php-format
+msgid "All Members %s"
+msgstr ""
+
+#: buddypress/activity/index.php:72 buddypress/members/index.php:56
+#, php-format
+msgid "My Friends %s"
+msgstr ""
+
+#: buddypress/activity/index.php:91 buddypress/groups/index.php:52
+#, php-format
+msgid "My Groups %s"
+msgstr ""
+
+#: buddypress/activity/index.php:108
+#, php-format
+msgid "My Favorites %s"
+msgstr ""
+
+#: buddypress/activity/index.php:123
+msgid "Mentions"
+msgstr ""
+
+#: buddypress/activity/index.php:142 buddypress/groups/single/activity.php:12
+msgid "RSS"
+msgstr ""
+
+#: buddypress/activity/index.php:154 buddypress/groups/single/activity.php:24
+#: buddypress/members/single/activity.php:17
+msgid "Show:"
+msgstr ""
+
+#: buddypress/activity/index.php:156 buddypress/groups/single/activity.php:26
+#: buddypress/members/single/activity.php:19
+msgid "&mdash; Everything &mdash;"
+msgstr ""
+
+#: buddypress/activity/post-form.php:29
+#, php-format
+msgid "What's new in %s, %s?"
+msgstr ""
+
+#: buddypress/activity/post-form.php:31
+#, php-format
+msgid "What's new, %s?"
+msgstr ""
+
+#: buddypress/activity/post-form.php:50
+msgid "Post in"
+msgstr ""
+
+#: buddypress/activity/post-form.php:53
+#: buddypress/members/single/profile/profile-wp.php:28
+msgid "My Profile"
+msgstr ""
+
+#: buddypress/blogs/blogs-loop.php:120
+msgid "Sorry, there were no sites found."
+msgstr ""
+
+#: buddypress/blogs/create.php:37
+msgid "Site registration is currently disabled"
+msgstr ""
+
+#: buddypress/blogs/index.php:53
+#, php-format
+msgid "All Sites %s"
+msgstr ""
+
+#: buddypress/blogs/index.php:57
+#, php-format
+msgid "My Sites %s"
+msgstr ""
+
+#: buddypress/blogs/index.php:87 buddypress/forums/index.php:86
+#: buddypress/groups/index.php:80 buddypress/groups/single/forum.php:50
+#: buddypress/members/index.php:83 buddypress/members/single/blogs.php:18
+#: buddypress/members/single/forums.php:17
+#: buddypress/members/single/friends.php:19
+#: buddypress/members/single/groups.php:19
+msgid "Order By:"
+msgstr ""
+
+#: buddypress/blogs/index.php:89 buddypress/forums/index.php:88
+#: buddypress/groups/index.php:83 buddypress/groups/single/forum.php:52
+#: buddypress/members/index.php:85 buddypress/members/single/blogs.php:20
+#: buddypress/members/single/forums.php:19
+#: buddypress/members/single/friends.php:21
+#: buddypress/members/single/groups.php:21
+msgid "Last Active"
+msgstr ""
+
+#: buddypress/blogs/index.php:90 buddypress/members/single/blogs.php:21
+msgid "Newest"
+msgstr ""
+
+#: buddypress/blogs/index.php:91 buddypress/groups/index.php:86
+#: buddypress/members/index.php:89 buddypress/members/single/blogs.php:22
+#: buddypress/members/single/friends.php:23
+#: buddypress/members/single/groups.php:24
+msgid "Alphabetical"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:81
+#, php-format
+msgid "Started by %1$s"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:92
+#, php-format
+msgid "in %1$s"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:163
+msgid "Sorry, there were no forum topics found."
+msgstr ""
+
+#: buddypress/forums/index.php:52
+#, php-format
+msgid "All Topics %s"
+msgstr ""
+
+#: buddypress/forums/index.php:56
+#, php-format
+msgid "My Topics %s"
+msgstr ""
+
+#: buddypress/forums/index.php:89 buddypress/groups/single/forum.php:53
+#: buddypress/members/single/forums.php:20
+msgid "Most Posts"
+msgstr ""
+
+#: buddypress/forums/index.php:90 buddypress/groups/single/forum.php:54
+#: buddypress/members/single/forums.php:21
+msgid "Unreplied"
+msgstr ""
+
+#: buddypress/forums/index.php:161
+msgid "Create New Topic:"
+msgstr ""
+
+#: buddypress/forums/index.php:168 buddypress/groups/single/forum.php:106
+#: buddypress/groups/single/forum/edit.php:74
+#: includes/widgets/maha-popular-post.php:164
+#: includes/widgets/maha-posts.php:358
+#: includes/widgets/maha-top-reviews.php:218
+msgid "Title:"
+msgstr ""
+
+#: buddypress/forums/index.php:171 buddypress/groups/single/forum.php:109
+#: buddypress/groups/single/forum/edit.php:77
+msgid "Content:"
+msgstr ""
+
+#: buddypress/forums/index.php:174 buddypress/groups/single/forum.php:112
+#: buddypress/groups/single/forum/edit.php:80
+msgid "Tags (comma separated):"
+msgstr ""
+
+#: buddypress/forums/index.php:177
+msgid "Post In Group Forum:"
+msgstr ""
+
+#: buddypress/forums/index.php:180
+msgid "----"
+msgstr ""
+
+#: buddypress/forums/index.php:216
+#, php-format
+msgid ""
+"You are not a member of any groups so you don't have any group forums you "
+"can post in. To start posting, first find a group that matches the topic "
+"subject you'd like to start. If this group does not exist, why not <a "
+"href='%s'>create a new group</a>? Once you have joined or created the group "
+"you can post your topic in that group's forum."
+msgstr ""
+
+#: buddypress/groups/create.php:66 buddypress/groups/single/admin.php:39
+msgid "Group Name (required)"
+msgstr ""
+
+#: buddypress/groups/create.php:71 buddypress/groups/single/admin.php:42
+msgid "Group Description (required)"
+msgstr ""
+
+#: buddypress/groups/create.php:103 buddypress/groups/single/admin.php:99
+msgid "Privacy Options"
+msgstr ""
+
+#: buddypress/groups/create.php:107 buddypress/groups/single/admin.php:103
+msgid "This is a public group"
+msgstr ""
+
+#: buddypress/groups/create.php:110 buddypress/groups/single/admin.php:106
+msgid "Any site member can join this group."
+msgstr ""
+
+#: buddypress/groups/create.php:111 buddypress/groups/create.php:120
+#: buddypress/groups/single/admin.php:107
+#: buddypress/groups/single/admin.php:115
+msgid ""
+"This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: buddypress/groups/create.php:112 buddypress/groups/single/admin.php:108
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: buddypress/groups/create.php:116 buddypress/groups/single/admin.php:111
+msgid "This is a private group"
+msgstr ""
+
+#: buddypress/groups/create.php:119 buddypress/groups/single/admin.php:114
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: buddypress/groups/create.php:121 buddypress/groups/create.php:130
+#: buddypress/groups/single/admin.php:116
+#: buddypress/groups/single/admin.php:124
+msgid ""
+"Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: buddypress/groups/create.php:125 buddypress/groups/single/admin.php:119
+msgid "This is a hidden group"
+msgstr ""
+
+#: buddypress/groups/create.php:128 buddypress/groups/single/admin.php:122
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: buddypress/groups/create.php:129 buddypress/groups/single/admin.php:123
+msgid ""
+"This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: buddypress/groups/create.php:139 buddypress/groups/single/admin.php:131
+msgid "Group Invitations"
+msgstr ""
+
+#: buddypress/groups/create.php:141 buddypress/groups/single/admin.php:133
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: buddypress/groups/create.php:145 buddypress/groups/single/admin.php:137
+msgid "All group members"
+msgstr ""
+
+#: buddypress/groups/create.php:147 buddypress/groups/single/admin.php:139
+msgid "Group admins and mods only"
+msgstr ""
+
+#: buddypress/groups/create.php:149 buddypress/groups/single/admin.php:141
+msgid "Group admins only"
+msgstr ""
+
+#: buddypress/groups/create.php:157
+msgid "Group Forums"
+msgstr ""
+
+#: buddypress/groups/create.php:161
+msgid "Should this group have a forum?"
+msgstr ""
+
+#: buddypress/groups/create.php:164 buddypress/groups/single/admin.php:91
+msgid "Enable discussion forum"
+msgstr ""
+
+#: buddypress/groups/create.php:168
+#, php-format
+msgid ""
+"<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s"
+"\">correct setup and configuration</a> of a bbPress installation."
+msgstr ""
+
+#: buddypress/groups/create.php:208 buddypress/groups/single/admin.php:167
+msgid ""
+"Upload an image to use as a profile photo for this group. The image will be "
+"shown on the main group page, and in search results."
+msgstr ""
+
+#: buddypress/groups/create.php:216
+msgid ""
+"To skip the group profile photo upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: buddypress/groups/create.php:231
+msgid "Crop Group Profile Photo"
+msgstr ""
+
+#: buddypress/groups/create.php:277 buddypress/groups/single/admin.php:235
+msgid "The Cover Image will be used to customize the header of your group."
+msgstr ""
+
+#: buddypress/groups/create.php:325
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#: buddypress/groups/create.php:343
+#: buddypress/groups/single/invites-loop.php:76
+msgid "Remove Invite"
+msgstr ""
+
+#: buddypress/groups/create.php:360
+msgid ""
+"Once you have built up friend connections you will be able to invite others "
+"to your group."
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:60
+#: buddypress/groups/single/cover-image-header.php:62
+#: buddypress/groups/single/group-header.php:72
+#, php-format
+msgid "active %s"
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:114
+msgid "There were no groups found."
+msgstr ""
+
+#: buddypress/groups/index.php:49
+#, php-format
+msgid "All Groups %s"
+msgstr ""
+
+#: buddypress/groups/index.php:84 buddypress/members/single/groups.php:22
+msgid "Most Members"
+msgstr ""
+
+#: buddypress/groups/index.php:85 buddypress/members/single/groups.php:23
+msgid "Newly Created"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:56
+msgid "Notify group members of these changes via email"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:177
+msgid ""
+"If you'd like to remove the existing group profile photo but not upload a "
+"new one, please use the delete group profile photo button."
+msgstr ""
+
+#: buddypress/groups/single/admin.php:179
+msgid "Delete Group Profile Photo"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:197
+msgid "Crop Profile Photo"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:224
+#: buddypress/members/single/profile/change-cover-image.php:11
+msgid "Change Cover Image"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:263
+msgid "Administrators"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:271
+#: buddypress/groups/single/admin.php:298
+#, php-format
+msgid "Profile picture of %s"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:276
+#: buddypress/groups/single/admin.php:303
+msgid "Demote to Member"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:291
+msgid "Moderators"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:302
+#: buddypress/groups/single/admin.php:358
+msgid "Promote to Admin"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:317
+msgid "Members"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:346
+msgid "(banned)"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:352
+msgid "Remove Ban"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:356
+msgid "Kick &amp; Ban"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:357
+msgid "Promote to Mod"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:362
+msgid "Remove from group"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:399
+msgid "This group has no members."
+msgstr ""
+
+#: buddypress/groups/single/admin.php:470
+msgid ""
+"WARNING: Deleting this group will completely remove ALL content associated "
+"with it. There is no way back, please be careful with this option."
+msgstr ""
+
+#: buddypress/groups/single/admin.php:473
+msgid "I understand the consequences of deleting this group."
+msgstr ""
+
+#: buddypress/groups/single/cover-image-header.php:73
+#: buddypress/groups/single/group-header.php:22
+msgid "Group Admins"
+msgstr ""
+
+#: buddypress/groups/single/cover-image-header.php:93
+#: buddypress/groups/single/group-header.php:42
+msgid "Group Mods"
+msgstr ""
+
+#: buddypress/groups/single/forum.php:30
+msgid "New Topic"
+msgstr ""
+
+#: buddypress/groups/single/forum.php:38
+#: buddypress/groups/single/forum/edit.php:29
+#: buddypress/groups/single/forum/topic.php:30
+msgid "Forum Directory"
+msgstr ""
+
+#: buddypress/groups/single/forum.php:100
+msgid "You will auto join this group when you start a new topic."
+msgstr ""
+
+#: buddypress/groups/single/forum.php:104
+msgid "Post a New Topic:"
+msgstr ""
+
+#: buddypress/groups/single/forum/edit.php:38
+msgid "Edit:"
+msgstr ""
+
+#: buddypress/groups/single/forum/edit.php:135
+msgid "This topic does not exist."
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:22
+msgid "New Reply"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:45
+msgid "Topic tags:"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:108
+#, php-format
+msgid "%1$s said %2$s:"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:160
+msgid "There are no posts for this topic."
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:175
+msgid "You will auto join this group when you reply to this topic."
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:187
+msgid "Add a reply:"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:210
+msgid "This topic is closed, replies are no longer accepted."
+msgstr ""
+
+#: buddypress/groups/single/invites-loop.php:113
+msgid "Select friends to invite."
+msgstr ""
+
+#: buddypress/groups/single/members.php:134
+msgid "No members were found."
+msgstr ""
+
+#: buddypress/groups/single/request-membership.php:17
+#, php-format
+msgid "You are requesting to become a member of the group '%s'."
+msgstr ""
+
+#: buddypress/groups/single/request-membership.php:20
+msgid "Comments (optional)"
+msgstr ""
+
+#: buddypress/groups/single/requests-loop.php:57
+#: buddypress/members/single/friends/requests.php:55
+#: buddypress/members/single/groups/invites.php:45
+msgid "Accept"
+msgstr ""
+
+#: buddypress/groups/single/requests-loop.php:59
+#: buddypress/members/single/friends/requests.php:56
+#: buddypress/members/single/groups/invites.php:46
+msgid "Reject"
+msgstr ""
+
+#: buddypress/groups/single/requests-loop.php:95
+msgid "There are no pending membership requests."
+msgstr ""
+
+#: buddypress/groups/single/send-invites.php:43
+msgid "Group invitations can only be extended to friends."
+msgstr ""
+
+#: buddypress/groups/single/send-invites.php:44
+msgid ""
+"Once you've made some friendships, you'll be able to invite those members to "
+"this group."
+msgstr ""
+
+#: buddypress/groups/single/send-invites.php:52
+msgid "All of your friends already belong to this group."
+msgstr ""
+
+#: buddypress/members/activate.php:41
+msgid ""
+"Your account was activated successfully! Your account details have been sent "
+"to you in a separate email."
+msgstr ""
+
+#: buddypress/members/activate.php:43
+#, php-format
+msgid ""
+"Your account was activated successfully! You can now <a href=\"%s\">log in</"
+"a> with the username and password you provided when you signed up."
+msgstr ""
+
+#: buddypress/members/activate.php:48
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: buddypress/members/activate.php:52
+msgid "Activation Key:"
+msgstr ""
+
+#: buddypress/members/index.php:86 buddypress/members/single/friends.php:22
+msgid "Newest Registered"
+msgstr ""
+
+#: buddypress/members/members-loop.php:124
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: buddypress/members/register.php:40
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: buddypress/members/register.php:59
+msgid ""
+"Registering for this site is easy. Just fill in the fields below, and we'll "
+"get a new account set up for you in no time."
+msgstr ""
+
+#: buddypress/members/register.php:74
+msgid "Account Details"
+msgstr ""
+
+#: buddypress/members/register.php:76 buddypress/members/register.php:87
+#: buddypress/members/register.php:98 buddypress/members/register.php:109
+#: buddypress/members/register.php:269 buddypress/members/register.php:285
+msgid "(required)"
+msgstr ""
+
+#: buddypress/members/register.php:87
+msgid "Email Address"
+msgstr ""
+
+#: buddypress/members/register.php:98
+msgid "Choose a Password"
+msgstr ""
+
+#: buddypress/members/register.php:109
+msgid "Confirm Password"
+msgstr ""
+
+#: buddypress/members/register.php:155
+msgid "Profile Details"
+msgstr ""
+
+#: buddypress/members/register.php:179 buddypress/members/register.php:200
+#: buddypress/members/single/profile/edit.php:58
+#: buddypress/members/single/profile/edit.php:78
+#, php-format
+msgid "This field can be seen by: %s"
+msgstr ""
+
+#: buddypress/members/register.php:188
+#: buddypress/members/single/profile/edit.php:67
+msgid "Who can see this field?"
+msgstr ""
+
+#: buddypress/members/register.php:193
+#: buddypress/members/single/profile/edit.php:72
+msgid "Close"
+msgstr ""
+
+#: buddypress/members/register.php:263
+msgid "Blog Details"
+msgstr ""
+
+#: buddypress/members/register.php:265
+msgid "Yes, I'd like to create a new site"
+msgstr ""
+
+#: buddypress/members/register.php:269
+msgid "Blog URL"
+msgstr ""
+
+#: buddypress/members/register.php:285
+msgid "Site Title"
+msgstr ""
+
+#: buddypress/members/register.php:296
+msgid ""
+"I would like my site to appear in search engines, and in public listings "
+"around this network."
+msgstr ""
+
+#: buddypress/members/register.php:306
+#: includes/acf/core/controllers/field_group.php:463
+#: includes/acf/core/fields/page_link.php:137
+#: includes/acf/core/fields/page_link.php:158
+#: includes/acf/core/fields/post_object.php:339
+#: includes/acf/core/fields/post_object.php:360
+#: includes/acf/core/fields/select.php:223
+#: includes/acf/core/fields/select.php:242
+#: includes/acf/core/fields/sidebar_selector-v4.php:82
+#: includes/acf/core/fields/taxonomy.php:498
+#: includes/acf/core/fields/user.php:331
+#: includes/acf/core/fields/wysiwyg.php:344
+#: includes/acf/core/views/meta_box_fields.php:194
+#: includes/acf/core/views/meta_box_fields.php:217
+msgid "Yes"
+msgstr ""
+
+#: buddypress/members/register.php:307
+#: includes/acf/core/controllers/field_group.php:462
+#: includes/acf/core/fields/page_link.php:138
+#: includes/acf/core/fields/page_link.php:159
+#: includes/acf/core/fields/post_object.php:340
+#: includes/acf/core/fields/post_object.php:361
+#: includes/acf/core/fields/select.php:224
+#: includes/acf/core/fields/select.php:243
+#: includes/acf/core/fields/sidebar_selector-v4.php:83
+#: includes/acf/core/fields/taxonomy.php:499
+#: includes/acf/core/fields/user.php:332
+#: includes/acf/core/fields/wysiwyg.php:345
+#: includes/acf/core/views/meta_box_fields.php:195
+#: includes/acf/core/views/meta_box_fields.php:218
+msgid "No"
+msgstr ""
+
+#: buddypress/members/register.php:375
+msgid ""
+"You have successfully created your account! To begin using this site you "
+"will need to activate your account via the email we have just sent to your "
+"address."
+msgstr ""
+
+#: buddypress/members/register.php:377
+msgid ""
+"You have successfully created your account! Please log in using the username "
+"and password you have just created."
+msgstr ""
+
+#: buddypress/members/single/friends/requests.php:85
+msgid "You have no pending friendship requests."
+msgstr ""
+
+#: buddypress/members/single/groups/invites.php:66
+msgid "You have no outstanding group invites."
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:21
+msgid "Send To (Username or Friend's Name)"
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:30
+msgid "This is a notice to all users."
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:33
+msgid "Subject"
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:36
+#: includes/acf/core/fields/message.php:19
+#: includes/acf/core/fields/message.php:70
+#: includes/acf/core/fields/true_false.php:79
+msgid "Message"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:61
+msgid "From:"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:66
+msgid "To:"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:96
+msgid "Read"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:98
+msgid "Unread"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:145
+msgid "Sorry, no messages were found."
+msgstr ""
+
+#: buddypress/members/single/messages/notices-loop.php:95
+msgid "Sorry, no notices were found."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:30
+msgid "You are alone in this conversation."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:34
+#, php-format
+msgid "Conversation between %s recipients."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:38
+#, php-format
+msgid "Conversation between %s and you."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:101
+msgid "Send a Reply"
+msgstr ""
+
+#: buddypress/members/single/notifications/feedback-no-notifications.php:16
+msgid "You have no unread notifications."
+msgstr ""
+
+#: buddypress/members/single/notifications/feedback-no-notifications.php:20
+msgid "This member has no unread notifications."
+msgstr ""
+
+#: buddypress/members/single/notifications/feedback-no-notifications.php:28
+msgid "You have no notifications."
+msgstr ""
+
+#: buddypress/members/single/notifications/feedback-no-notifications.php:32
+msgid "This member has no notifications."
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:15
+msgid "Select all"
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:16
+msgid "Notification"
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:17
+msgid "Date Received"
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:18
+#: includes/acf/core/controllers/field_groups.php:223
+msgid "Actions"
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:28
+msgid "Select this notification"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:11
+msgid "Change Profile Photo"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:24
+msgid ""
+"Your profile photo will be used on your profile and throughout the site. If "
+"there is a \"Gravatar\" associated with your account email we will use that, "
+"or you can upload an image from your computer."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:31
+msgid ""
+"Click below to select a JPG, GIF or PNG format photo from your computer and "
+"then click 'Upload Image' to proceed."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:40
+msgid ""
+"If you'd like to delete your current profile photo but not upload a new one, "
+"please use the delete profile photo button."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:41
+msgid "Delete My Profile Photo"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:48
+msgid "Crop Your New Profile Photo"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:80
+msgid ""
+"Your profile photo will be used on your profile and throughout the site. To "
+"change your profile photo, please create an account with \"Gravatar\"> using "
+"the same email address as you used to register with this site."
+msgstr ""
+
+#: buddypress/members/single/profile/change-cover-image.php:22
+msgid "Your Cover Image will be used to customize the header of your profile."
+msgstr ""
+
+#: buddypress/members/single/profile/edit.php:26
+#, php-format
+msgid "Editing '%s' Profile Group"
+msgstr ""
+
+#: buddypress/members/single/profile/edit.php:62
+msgid "Change"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:28
+#, php-format
+msgid "%s's Profile"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:44
+msgid "About Me"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:62
+msgid "Jabber"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:71
+msgid "AOL Messenger"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:80
+msgid "Yahoo Messenger"
+msgstr ""
+
+#: buddypress/members/single/settings/capabilities.php:25
+msgid "This user is a spammer."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:16
+msgid ""
+"Deleting your account will delete all of the content you have created. It "
+"will be completely irrecoverable."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:20
+msgid ""
+"Deleting this account will delete all of the content it has created. It will "
+"be completely irrecoverable."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:39
+msgid "I understand the consequences."
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:16
+msgid ""
+"Current Password <span>(required to update email or change current "
+"password)</span>"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:17
+msgid "Lost your password?"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:21
+msgid "Account Email"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:24
+msgid "Change Password <span>(leave blank for no change)</span>"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:26
+msgid "Repeat New Password"
+msgstr ""
+
+#: buddypress/members/single/settings/notifications.php:13
+msgid "Send an email notice when:"
+msgstr ""
+
+#: buddypress/members/single/settings/profile.php:28
+msgid "Visibility"
+msgstr ""
+
+#: comments.php:14
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:31
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:31
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:31
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:56
+#, php-format
+msgid " to %s"
+msgstr ""
+
+#: comments.php:60
+msgid "Comment"
+msgstr ""
+
+#: comments.php:64
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:70
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:77
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:86
+msgid "Name (required)"
+msgstr ""
+
+#: comments.php:91
+msgid "Email (required)"
+msgstr ""
+
+#: functions.php:43
+msgid "Top Navigation"
+msgstr ""
+
+#: functions.php:44
+msgid "Header Navigation"
+msgstr ""
+
+#: functions.php:125
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:126
+msgid "Widget area for blog pages."
+msgstr ""
+
+#: functions.php:134
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:135
+msgid "Widget area for regular page."
+msgstr ""
+
+#: functions.php:146
+msgid "Footer "
+msgstr ""
+
+#: functions.php:147
+msgid "Widget area for footer"
+msgstr ""
+
+#: functions.php:165
+msgid " widget."
+msgstr ""
+
+#: functions.php:332
+msgid "(Author)"
+msgstr ""
+
+#: functions.php:335
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:338
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header.php:64
+msgid "Logout"
+msgstr ""
+
+#: header.php:77
+msgid "Login"
+msgstr ""
+
+#: includes/acf/acf.php:509
+msgid "Field&nbsp;Groups"
+msgstr ""
+
+#: includes/acf/acf.php:510 includes/acf/core/controllers/field_groups.php:213
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: includes/acf/acf.php:511
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:708
+msgid "Add New"
+msgstr ""
+
+#: includes/acf/acf.php:512
+msgid "Add New Field Group"
+msgstr ""
+
+#: includes/acf/acf.php:513
+msgid "Edit Field Group"
+msgstr ""
+
+#: includes/acf/acf.php:514
+msgid "New Field Group"
+msgstr ""
+
+#: includes/acf/acf.php:515
+msgid "View Field Group"
+msgstr ""
+
+#: includes/acf/acf.php:516
+msgid "Search Field Groups"
+msgstr ""
+
+#: includes/acf/acf.php:517
+msgid "No Field Groups found"
+msgstr ""
+
+#: includes/acf/acf.php:518
+msgid "No Field Groups found in Trash"
+msgstr ""
+
+#: includes/acf/acf.php:605 includes/acf/acf.php:608
+msgid "Field group updated."
+msgstr ""
+
+#: includes/acf/acf.php:606
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/acf/acf.php:607
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/acf/acf.php:610
+#, php-format
+msgid "Field group restored to revision from %s"
+msgstr ""
+
+#: includes/acf/acf.php:611
+msgid "Field group published."
+msgstr ""
+
+#: includes/acf/acf.php:612
+msgid "Field group saved."
+msgstr ""
+
+#: includes/acf/acf.php:613
+msgid "Field group submitted."
+msgstr ""
+
+#: includes/acf/acf.php:614
+msgid "Field group scheduled for."
+msgstr ""
+
+#: includes/acf/acf.php:615
+msgid "Field group draft updated."
+msgstr ""
+
+#: includes/acf/acf.php:750
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/acf/acf.php:751
+msgid "Medium"
+msgstr ""
+
+#: includes/acf/acf.php:752
+msgid "Large"
+msgstr ""
+
+#: includes/acf/acf.php:753
+msgid "Full"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:22
+#: includes/acf/core/controllers/field_groups.php:452
+msgid "Flexible Content"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:23
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:701
+#: includes/acf/add-ons/acf-repeater/repeater.php:23
+#: includes/acf/add-ons/acf-repeater/repeater.php:640
+#: includes/acf/core/fields/checkbox.php:183
+#: includes/acf/core/fields/message.php:20
+#: includes/acf/core/fields/radio.php:212 includes/acf/core/fields/tab.php:20
+msgid "Layout"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:88
+msgid "Flexible Content requires at least 1 layout"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:190
+msgid "+ Add Row"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:345
+msgid ""
+"This is <strong>Full Width Area</strong>. You can put components like Slider "
+"here. "
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:481
+msgid ""
+"This is just <strong>Sidebar Area</strong>.</br> You can custom the widgets "
+"via \"Appearance > Widgets\" "
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:485
+msgid ""
+"This is <strong>Content Area</strong>. You can put components like Blocked "
+"Posts here. "
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:623
+msgid "Click the"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:623
+msgid "button below to start creating your layout"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:663
+#: includes/acf/add-ons/acf-repeater/repeater.php:160
+#: includes/acf/add-ons/acf-repeater/repeater.php:405
+msgid "Add Row"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:693
+#: includes/acf/add-ons/acf-repeater/repeater.php:420
+#: includes/acf/core/views/meta_box_fields.php:24
+msgid "New Field"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:694
+#: includes/acf/add-ons/acf-repeater/repeater.php:421
+msgid "new_field"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:703
+msgid "Reorder Layout"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:703
+msgid "Reorder"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:704
+msgid "Delete Layout"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:708
+msgid "Add New Layout"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:709
+msgid "Duplicate Layout"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:709
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:792
+#: includes/acf/add-ons/acf-repeater/repeater.php:473
+#: includes/acf/core/views/meta_box_fields.php:109
+msgid "Duplicate"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:719
+msgid "Label"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:739
+msgid "Display"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:746
+#: includes/acf/add-ons/acf-repeater/repeater.php:651
+msgid "Row"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:747
+msgid "Table"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:760
+#: includes/acf/add-ons/acf-repeater/repeater.php:441
+#: includes/acf/core/views/meta_box_fields.php:74
+msgid "Field Order"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:761
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:808
+#: includes/acf/add-ons/acf-repeater/repeater.php:442
+#: includes/acf/add-ons/acf-repeater/repeater.php:490
+#: includes/acf/core/views/meta_box_fields.php:75
+#: includes/acf/core/views/meta_box_fields.php:126
+msgid "Field Label"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:762
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:824
+#: includes/acf/add-ons/acf-repeater/repeater.php:443
+#: includes/acf/add-ons/acf-repeater/repeater.php:506
+#: includes/acf/core/views/meta_box_fields.php:76
+#: includes/acf/core/views/meta_box_fields.php:142
+msgid "Field Name"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:763
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:839
+#: includes/acf/add-ons/acf-repeater/repeater.php:444
+#: includes/acf/add-ons/acf-repeater/repeater.php:521
+#: includes/acf/core/fields/taxonomy.php:464
+#: includes/acf/core/fields/user.php:298
+#: includes/acf/core/views/meta_box_fields.php:77
+#: includes/acf/core/views/meta_box_fields.php:158
+msgid "Field Type"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:771
+#: includes/acf/add-ons/acf-repeater/repeater.php:452
+msgid ""
+"No fields. Click the \"+ Add Sub Field button\" to create your first field."
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:787
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:790
+#: includes/acf/add-ons/acf-repeater/repeater.php:468
+#: includes/acf/add-ons/acf-repeater/repeater.php:471
+#: includes/acf/core/views/meta_box_fields.php:105
+#: includes/acf/core/views/meta_box_fields.php:108
+msgid "Edit this Field"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:791
+#: includes/acf/add-ons/acf-repeater/repeater.php:472
+msgid "Read documentation for this field"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:791
+#: includes/acf/add-ons/acf-repeater/repeater.php:472
+msgid "Docs"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:792
+#: includes/acf/add-ons/acf-repeater/repeater.php:473
+#: includes/acf/core/views/meta_box_fields.php:109
+msgid "Duplicate this Field"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:793
+#: includes/acf/add-ons/acf-repeater/repeater.php:474
+#: includes/acf/core/views/meta_box_fields.php:110
+msgid "Delete this Field"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:809
+#: includes/acf/add-ons/acf-repeater/repeater.php:491
+#: includes/acf/core/views/meta_box_fields.php:127
+msgid "This is the name which will appear on the EDIT page"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:825
+#: includes/acf/add-ons/acf-repeater/repeater.php:507
+#: includes/acf/core/views/meta_box_fields.php:143
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:854
+#: includes/acf/add-ons/acf-repeater/repeater.php:536
+#: includes/acf/core/views/meta_box_fields.php:172
+msgid "Field Instructions"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:874
+#: includes/acf/add-ons/acf-repeater/repeater.php:556
+msgid "Column Width"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:875
+#: includes/acf/add-ons/acf-repeater/repeater.php:557
+msgid "Leave blank for auto"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:905
+#: includes/acf/add-ons/acf-repeater/repeater.php:589
+#: includes/acf/core/views/meta_box_fields.php:303
+msgid "Close Field"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:905
+#: includes/acf/add-ons/acf-repeater/repeater.php:589
+msgid "Close Sub Field"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:919
+#: includes/acf/add-ons/acf-repeater/repeater.php:604
+#: includes/acf/core/views/meta_box_fields.php:316
+msgid "Drag and drop to reorder"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:920
+#: includes/acf/add-ons/acf-repeater/repeater.php:605
+msgid "+ Add Sub Field"
+msgstr ""
+
+#: includes/acf/add-ons/acf-flexible-content/flexible-content.php:927
+#: includes/acf/add-ons/acf-repeater/repeater.php:659
+msgid "Button Label"
+msgstr ""
+
+#: includes/acf/add-ons/acf-repeater/repeater.php:22
+msgid "Repeater"
+msgstr ""
+
+#: includes/acf/add-ons/acf-repeater/repeater.php:433
+msgid "Repeater Fields"
+msgstr ""
+
+#: includes/acf/add-ons/acf-repeater/repeater.php:584
+msgid "Save Field"
+msgstr ""
+
+#: includes/acf/add-ons/acf-repeater/repeater.php:612
+msgid "Minimum Rows"
+msgstr ""
+
+#: includes/acf/add-ons/acf-repeater/repeater.php:626
+msgid "Maximum Rows"
+msgstr ""
+
+#: includes/acf/add-ons/acf-repeater/repeater.php:650
+msgid "Table (default)"
+msgstr ""
+
+#: includes/acf/core/actions/export.php:26
+#: includes/acf/core/views/meta_box_fields.php:58
+msgid "Error"
+msgstr ""
+
+#: includes/acf/core/actions/export.php:33
+msgid "No ACF groups selected"
+msgstr ""
+
+#: includes/acf/core/api.php:1170
+#: includes/plugins/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: includes/acf/core/api.php:1171
+msgid "Post updated"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:130
+#: includes/acf/core/controllers/field_groups.php:428
+msgid "Repeater Field"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:131
+msgid "Create infinite rows of repeatable data with this versatile interface!"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:137
+#: includes/acf/core/controllers/field_groups.php:436
+msgid "Gallery Field"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:138
+msgid "Create image galleries in a simple and intuitive interface!"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:144
+#: includes/acf/core/controllers/field_groups.php:444
+msgid "Options Page"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:145
+msgid "Create global data to use throughout your website!"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:151
+msgid "Flexible Content Field"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:152
+msgid "Create unique designs with a flexible content layout manager!"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:161
+msgid "Gravity Forms Field"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:162
+msgid "Creates a select field populated with Gravity Forms!"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:168
+msgid "Date & Time Picker"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:169
+msgid "jQuery date & time picker"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:175
+msgid "Google Map Extended"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:176
+msgid "Find addresses and coordinates of a desired location"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:182
+msgid "Contact Form 7 Field"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:183
+msgid "Assign one or more contact form 7 forms to a post"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:193
+msgid "Advanced Custom Fields Add-Ons"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:196
+msgid ""
+"The following Add-ons are available to increase the functionality of the "
+"Advanced Custom Fields plugin."
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:197
+msgid ""
+"Each Add-on can be installed as a separate plugin (receives updates) or "
+"included in your theme (does not receive updates)."
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:219
+#: includes/acf/core/controllers/addons.php:240
+msgid "Installed"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:221
+msgid "Purchase & Install"
+msgstr ""
+
+#: includes/acf/core/controllers/addons.php:242
+#: includes/acf/core/controllers/field_groups.php:421
+#: includes/acf/core/controllers/field_groups.php:430
+#: includes/acf/core/controllers/field_groups.php:438
+#: includes/acf/core/controllers/field_groups.php:446
+#: includes/acf/core/controllers/field_groups.php:454
+msgid "Download"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:159
+msgid "Export"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:216
+msgid "Export Field Groups"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:221
+msgid "Field Groups"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:222
+msgid "Select the field groups to be exported"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:239
+#: includes/acf/core/controllers/export.php:252
+msgid "Export to XML"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:242
+#: includes/acf/core/controllers/export.php:267
+msgid "Export to PHP"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:253
+msgid ""
+"ACF will create a .xml export file which is compatible with the native WP "
+"import plugin."
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:254
+msgid ""
+"Imported field groups <b>will</b> appear in the list of editable field "
+"groups. This is useful for migrating fields groups between Wp websites."
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:256
+msgid "Select field group(s) from the list and click \"Export XML\""
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:257
+msgid "Save the .xml file when prompted"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:258
+msgid "Navigate to Tools &raquo; Import and select WordPress"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:259
+msgid "Install WP import plugin if prompted"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:260
+msgid "Upload and import your exported .xml file"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:261
+msgid "Select your user and ignore Import Attachments"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:262
+msgid "That's it! Happy WordPressing"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:268
+msgid "ACF will create the PHP code to include in your theme."
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:269
+#: includes/acf/core/controllers/export.php:310
+msgid ""
+"Registered field groups <b>will not</b> appear in the list of editable field "
+"groups. This is useful for including fields in themes."
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:270
+#: includes/acf/core/controllers/export.php:311
+msgid ""
+"Please note that if you export and register field groups within the same WP, "
+"you will see duplicate fields on your edit screens. To fix this, please move "
+"the original field group to the trash or remove the code from your functions."
+"php file."
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:272
+msgid "Select field group(s) from the list and click \"Create PHP\""
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:273
+#: includes/acf/core/controllers/export.php:302
+msgid "Copy the PHP code generated"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:274
+#: includes/acf/core/controllers/export.php:303
+msgid "Paste into your functions.php file"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:275
+#: includes/acf/core/controllers/export.php:304
+msgid "To activate any Add-ons, edit and use the code in the first few lines."
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:295
+msgid "Export Field Groups to PHP"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:300
+#: includes/acf/core/fields/tab.php:65
+msgid "Instructions"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:309
+msgid "Notes"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:316
+msgid "Include in theme"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:317
+msgid ""
+"The Advanced Custom Fields plugin can be included within a theme. To do so, "
+"move the ACF plugin inside your theme and add the following code to your "
+"functions.php file:"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:323
+msgid ""
+"To remove all visual interfaces from the ACF plugin, you can use a constant "
+"to enable lite mode. Add the following code to your functions.php file "
+"<b>before</b> the include_once code:"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:331
+msgid "Back to export"
+msgstr ""
+
+#: includes/acf/core/controllers/export.php:400
+msgid "No field groups were selected"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:359
+msgid "Move to trash. Are you sure?"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:360
+msgid "checked"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:361
+msgid "No toggle fields available"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:362
+msgid "Field group title is required"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:363
+msgid "copy"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:364
+#: includes/acf/core/views/meta_box_location.php:62
+#: includes/acf/core/views/meta_box_location.php:159
+msgid "or"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:365
+#: includes/acf/core/controllers/field_group.php:397
+#: includes/acf/core/controllers/field_group.php:459
+#: includes/acf/core/controllers/field_groups.php:148
+msgid "Fields"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:366
+msgid "Parent fields"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:367
+msgid "Sibling fields"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:368
+msgid "Hide / Show All"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:398
+msgid "Location"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:399
+#: includes/options/ReduxCore/framework.php:224
+#: includes/options/ReduxCore/framework.php:228
+msgid "Options"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:461
+msgid "Show Field Key:"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:635
+msgid "Front Page"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:636
+msgid "Posts Page"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:637
+msgid "Top Level Page (parent of 0)"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:638
+msgid "Parent Page (has children)"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:639
+msgid "Child Page (has parent)"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:647
+msgid "Default Template"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:729
+msgid "Published"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:730
+msgid "Pending Review"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:731
+msgid "Draft"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:732
+msgid "Future"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:734
+msgid "Revision"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:735
+msgid "Trash"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:748
+msgid "Super Admin"
+msgstr ""
+
+#: includes/acf/core/controllers/field_group.php:763
+#: includes/acf/core/controllers/field_group.php:784
+#: includes/acf/core/controllers/field_group.php:791
+#: includes/acf/core/fields/file.php:186 includes/acf/core/fields/image.php:177
+#: includes/acf/core/fields/page_link.php:109
+#: includes/acf/core/fields/post_object.php:286
+#: includes/acf/core/fields/post_object.php:310
+#: includes/acf/core/fields/relationship.php:582
+#: includes/acf/core/fields/relationship.php:606
+#: includes/acf/core/fields/user.php:276
+#: includes/options/ReduxCore/inc/fields/border/field_border.php:125
+#: includes/options/ReduxCore/inc/fields/spacing/field_spacing.php:191
+msgid "All"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:147
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:145
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:200
+#: includes/widgets/maha-ads.php:112 includes/widgets/maha-menus.php:98
+#: includes/widgets/maha-recent-posts.php:148
+#: includes/widgets/maha-social-subscribe.php:253
+msgid "Title"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:215
+#: includes/acf/core/controllers/field_groups.php:252
+msgid "Changelog"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:216
+#, php-format
+msgid "See what's new in %1$sversion %2$s%3$s"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:218
+msgid "Resources"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:220
+msgid "Getting Started"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:221
+msgid "Field Types"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:222
+msgid "Functions"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:224
+#: includes/acf/core/fields/relationship.php:625
+msgid "Filters"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:225
+msgid "'How to' guides"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:226
+msgid "Tutorials"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:231
+msgid "Created by"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:243
+msgid "Welcome to Advanced Custom Fields"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:244
+msgid "Thank you for updating to the latest version!"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:244
+#, php-format
+msgid ""
+"ACF %s is more polished and enjoyable than ever before. We hope you like it."
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:251
+msgid "What’s New"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:254
+msgid "Download Add-ons"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:306
+msgid "Add-ons"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:308
+msgid "Activation codes have grown into plugins!"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:309
+msgid ""
+"Add-ons are now activated by downloading and installing individual plugins. "
+"Although these plugins will not be hosted on the wordpress.org repository, "
+"each Add-on will continue to receive updates in the usual way."
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:315
+msgid "All previous Add-ons have been successfully installed"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:319
+msgid "This website uses premium Add-ons which need to be downloaded"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:319
+msgid "Download your activated Add-ons"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:324
+msgid ""
+"This website does not use premium Add-ons and will not be affected by this "
+"change."
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:334
+msgid "Easier Development"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:336
+msgid "New Field Types"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:338
+msgid "Taxonomy Field"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:339
+msgid "User Field"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:340
+msgid "Email Field"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:341
+msgid "Password Field"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:343
+msgid "Custom Field Types"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:344
+msgid ""
+"Creating your own field type has never been easier! Unfortunately, version 3 "
+"field types are not compatible with version 4."
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:345
+#, php-format
+msgid ""
+"Migrating your field types is easy, please %sfollow this tutorial%s to learn "
+"more."
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:347
+msgid "Actions &amp; Filters"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:348
+#, php-format
+msgid ""
+"All actions & filters have received a major facelift to make customizing ACF "
+"even easier! Please %sread this guide%s to find the updated naming "
+"convention."
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:350
+msgid "Preview draft is now working!"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:351
+msgid "This bug has been squashed along with many other little critters!"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:351
+msgid "See the full changelog"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:355
+msgid "Important"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:357
+msgid "Database Changes"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:358
+msgid ""
+"Absolutely <strong>no</strong> changes have been made to the database "
+"between versions 3 and 4. This means you can roll back to version 3 without "
+"any issues."
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:360
+msgid "Potential Issues"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:361
+#, php-format
+msgid ""
+"Due to the sizable changes surrounding Add-ons, field types and action/"
+"filters, your website may not operate correctly. It is important that you "
+"read the full %sMigrating from v3 to v4%s guide to view the full list of "
+"changes."
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:364
+msgid "Really Important!"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:364
+#, php-format
+msgid ""
+"If you updated the ACF plugin without prior knowledge of such changes, "
+"please roll back to the latest %sversion 3%s of this plugin."
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:369
+msgid "Thank You"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:370
+msgid ""
+"A <strong>BIG</strong> thank you to everyone who has helped test the version "
+"4 beta and for all the support I have received."
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:371
+msgid "Without you all, this release would not have been possible!"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:375
+msgid "Changelog for"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:392
+msgid "Learn more"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:398
+msgid "Overview"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:400
+msgid ""
+"Previously, all Add-ons were unlocked via an activation code (purchased from "
+"the ACF Add-ons store). New to v4, all Add-ons act as separate plugins which "
+"need to be individually downloaded, installed and updated."
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:402
+msgid ""
+"This page will assist you in downloading and installing each available Add-"
+"on."
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:404
+msgid "Available Add-ons"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:406
+msgid "The following Add-ons have been detected as activated on this website."
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:420
+msgid "Activation Code"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:462
+msgid "Installation"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:464
+msgid "For each Add-on available, please perform the following:"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:466
+msgid "Download the Add-on plugin (.zip file) to your desktop"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:467
+#, php-format
+msgid "Navigate to %sPlugins > Add New > Upload%s"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:468
+msgid "Use the uploader to browse, select and install your Add-on (.zip file)"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:469
+msgid ""
+"Once the plugin has been uploaded and installed, click the 'Activate Plugin' "
+"link"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:470
+msgid "The Add-on is now installed and activated!"
+msgstr ""
+
+#: includes/acf/core/controllers/field_groups.php:484
+msgid "Awesome. Let's get to work"
+msgstr ""
+
+#: includes/acf/core/controllers/input.php:63
+msgid "Expand Details"
+msgstr ""
+
+#: includes/acf/core/controllers/input.php:64
+msgid "Collapse Details"
+msgstr ""
+
+#: includes/acf/core/controllers/input.php:67
+msgid "Validation Failed. One or more fields below are required."
+msgstr ""
+
+#: includes/acf/core/controllers/upgrade.php:536
+msgid "Migrating options values from the"
+msgstr ""
+
+#: includes/acf/core/controllers/upgrade.php:536
+msgid "table to the"
+msgstr ""
+
+#: includes/acf/core/controllers/upgrade.php:536
+msgid "table"
+msgstr ""
+
+#: includes/acf/core/controllers/upgrade.php:599
+msgid "Modifying field group options 'show on page'"
+msgstr ""
+
+#: includes/acf/core/controllers/upgrade.php:653
+msgid "Modifying field option 'taxonomy'"
+msgstr ""
+
+#: includes/acf/core/controllers/upgrade.php:750
+msgid "Moving user custom fields from wp_options to wp_usermeta"
+msgstr ""
+
+#: includes/acf/core/fields/_base.php:124
+#: includes/acf/core/views/meta_box_location.php:74
+msgid "Basic"
+msgstr ""
+
+#: includes/acf/core/fields/checkbox.php:19
+#: includes/acf/core/fields/taxonomy.php:475
+msgid "Checkbox"
+msgstr ""
+
+#: includes/acf/core/fields/checkbox.php:20
+#: includes/acf/core/fields/radio.php:19 includes/acf/core/fields/select.php:19
+#: includes/acf/core/fields/sidebar_selector-v4.php:26
+#: includes/acf/core/fields/true_false.php:20
+msgid "Choice"
+msgstr ""
+
+#: includes/acf/core/fields/checkbox.php:146
+#: includes/acf/core/fields/radio.php:147
+#: includes/acf/core/fields/select.php:177
+msgid "Choices"
+msgstr ""
+
+#: includes/acf/core/fields/checkbox.php:147
+#: includes/acf/core/fields/select.php:178
+msgid "Enter each choice on a new line."
+msgstr ""
+
+#: includes/acf/core/fields/checkbox.php:148
+#: includes/acf/core/fields/select.php:179
+msgid "For more control, you may specify both a value and label like this:"
+msgstr ""
+
+#: includes/acf/core/fields/checkbox.php:149
+#: includes/acf/core/fields/radio.php:153
+#: includes/acf/core/fields/select.php:180
+msgid "red : Red"
+msgstr ""
+
+#: includes/acf/core/fields/checkbox.php:149
+#: includes/acf/core/fields/radio.php:154
+#: includes/acf/core/fields/select.php:180
+msgid "blue : Blue"
+msgstr ""
+
+#: includes/acf/core/fields/checkbox.php:166
+#: includes/acf/core/fields/color_picker.php:89
+#: includes/acf/core/fields/email.php:106
+#: includes/acf/core/fields/number.php:116
+#: includes/acf/core/fields/radio.php:196
+#: includes/acf/core/fields/select.php:197
+#: includes/acf/core/fields/sidebar_selector-v4.php:93
+#: includes/acf/core/fields/text.php:116
+#: includes/acf/core/fields/textarea.php:103
+#: includes/acf/core/fields/true_false.php:94
+#: includes/acf/core/fields/wysiwyg.php:287
+msgid "Default Value"
+msgstr ""
+
+#: includes/acf/core/fields/checkbox.php:167
+#: includes/acf/core/fields/select.php:198
+msgid "Enter each default value on a new line"
+msgstr ""
+
+#: includes/acf/core/fields/checkbox.php:194
+#: includes/acf/core/fields/radio.php:223
+msgid "Vertical"
+msgstr ""
+
+#: includes/acf/core/fields/checkbox.php:195
+#: includes/acf/core/fields/radio.php:224
+msgid "Horizontal"
+msgstr ""
+
+#: includes/acf/core/fields/color_picker.php:19
+msgid "Color Picker"
+msgstr ""
+
+#: includes/acf/core/fields/color_picker.php:20
+#: includes/acf/core/fields/date_picker/date_picker.php:20
+#: includes/acf/core/fields/google-map.php:19
+msgid "jQuery"
+msgstr ""
+
+#: includes/acf/core/fields/date_picker/date_picker.php:19
+msgid "Date Picker"
+msgstr ""
+
+#: includes/acf/core/fields/date_picker/date_picker.php:55
+msgid "Done"
+msgstr ""
+
+#: includes/acf/core/fields/date_picker/date_picker.php:56
+#: includes/widgets/maha-popular-post.php:95
+msgid "Today"
+msgstr ""
+
+#: includes/acf/core/fields/date_picker/date_picker.php:59
+msgid "Show a different month"
+msgstr ""
+
+#: includes/acf/core/fields/date_picker/date_picker.php:126
+msgid "Save format"
+msgstr ""
+
+#: includes/acf/core/fields/date_picker/date_picker.php:127
+msgid ""
+"This format will determine the value saved to the database and returned via "
+"the API"
+msgstr ""
+
+#: includes/acf/core/fields/date_picker/date_picker.php:128
+msgid "\"yymmdd\" is the most versatile save format. Read more about"
+msgstr ""
+
+#: includes/acf/core/fields/date_picker/date_picker.php:128
+#: includes/acf/core/fields/date_picker/date_picker.php:144
+msgid "jQuery date formats"
+msgstr ""
+
+#: includes/acf/core/fields/date_picker/date_picker.php:142
+msgid "Display format"
+msgstr ""
+
+#: includes/acf/core/fields/date_picker/date_picker.php:143
+msgid "This format will be seen by the user when entering a value"
+msgstr ""
+
+#: includes/acf/core/fields/date_picker/date_picker.php:144
+msgid ""
+"\"dd/mm/yy\" or \"mm/dd/yy\" are the most used display formats. Read more "
+"about"
+msgstr ""
+
+#: includes/acf/core/fields/date_picker/date_picker.php:158
+msgid "Week Starts On"
+msgstr ""
+
+#: includes/acf/core/fields/dummy.php:19
+msgid "Dummy"
+msgstr ""
+
+#: includes/acf/core/fields/email.php:107
+#: includes/acf/core/fields/number.php:117
+#: includes/acf/core/fields/text.php:117
+#: includes/acf/core/fields/textarea.php:104
+#: includes/acf/core/fields/wysiwyg.php:288
+msgid "Appears when creating a new post"
+msgstr ""
+
+#: includes/acf/core/fields/email.php:123
+#: includes/acf/core/fields/number.php:133
+#: includes/acf/core/fields/password.php:105
+#: includes/acf/core/fields/text.php:131
+#: includes/acf/core/fields/textarea.php:118
+msgid "Placeholder Text"
+msgstr ""
+
+#: includes/acf/core/fields/email.php:124
+#: includes/acf/core/fields/number.php:134
+#: includes/acf/core/fields/password.php:106
+#: includes/acf/core/fields/text.php:132
+#: includes/acf/core/fields/textarea.php:119
+msgid "Appears within the input"
+msgstr ""
+
+#: includes/acf/core/fields/email.php:138
+#: includes/acf/core/fields/number.php:148
+#: includes/acf/core/fields/password.php:120
+#: includes/acf/core/fields/text.php:146
+msgid "Prepend"
+msgstr ""
+
+#: includes/acf/core/fields/email.php:139
+#: includes/acf/core/fields/number.php:149
+#: includes/acf/core/fields/password.php:121
+#: includes/acf/core/fields/text.php:147
+msgid "Appears before the input"
+msgstr ""
+
+#: includes/acf/core/fields/email.php:153
+#: includes/acf/core/fields/number.php:163
+#: includes/acf/core/fields/password.php:135
+#: includes/acf/core/fields/text.php:161
+msgid "Append"
+msgstr ""
+
+#: includes/acf/core/fields/email.php:154
+#: includes/acf/core/fields/number.php:164
+#: includes/acf/core/fields/password.php:136
+#: includes/acf/core/fields/text.php:162
+msgid "Appears after the input"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:19
+msgid "File"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:20 includes/acf/core/fields/image.php:20
+#: includes/acf/core/fields/wysiwyg.php:20
+#: includes/options/curated/config.php:704
+msgid "Content"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:26
+msgid "Select File"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:27
+msgid "Edit File"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:28
+msgid "Update File"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:29 includes/acf/core/fields/image.php:30
+msgid "Uploaded to this post"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:113
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:123
+msgid "No File Selected"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:123
+msgid "Add File"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:153 includes/acf/core/fields/image.php:125
+#: includes/acf/core/fields/taxonomy.php:523
+msgid "Return Value"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:164
+msgid "File Object"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:165
+msgid "File URL"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:166
+msgid "File ID"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:175 includes/acf/core/fields/image.php:165
+msgid "Library"
+msgstr ""
+
+#: includes/acf/core/fields/file.php:187 includes/acf/core/fields/image.php:178
+msgid "Uploaded to post"
+msgstr ""
+
+#: includes/acf/core/fields/google-map.php:18
+msgid "Google Map"
+msgstr ""
+
+#: includes/acf/core/fields/google-map.php:33
+msgid "Locating"
+msgstr ""
+
+#: includes/acf/core/fields/google-map.php:34
+msgid "Sorry, this browser does not support geolocation"
+msgstr ""
+
+#: includes/acf/core/fields/google-map.php:120
+msgid "Clear location"
+msgstr ""
+
+#: includes/acf/core/fields/google-map.php:125
+msgid "Find current location"
+msgstr ""
+
+#: includes/acf/core/fields/google-map.php:126
+msgid "Search for address..."
+msgstr ""
+
+#: includes/acf/core/fields/google-map.php:162
+msgid "Center"
+msgstr ""
+
+#: includes/acf/core/fields/google-map.php:163
+msgid "Center the initial map"
+msgstr ""
+
+#: includes/acf/core/fields/google-map.php:199
+msgid "Zoom"
+msgstr ""
+
+#: includes/acf/core/fields/google-map.php:200
+msgid "Set the initial zoom level"
+msgstr ""
+
+#: includes/acf/core/fields/google-map.php:217
+#: includes/options/ReduxCore/inc/fields/dimensions/field_dimensions.php:178
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:442
+msgid "Height"
+msgstr ""
+
+#: includes/acf/core/fields/google-map.php:218
+msgid "Customise the map height"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:19
+msgid "Image"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:27
+msgid "Select Image"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:28
+msgid "Edit Image"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:29
+msgid "Update Image"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:90
+#: includes/options/ReduxCore/inc/fields/background/field_background.php:321
+#: includes/options/ReduxCore/inc/fields/media/field_media.php:205
+#: includes/options/ReduxCore/inc/fields/multi_text/field_multi_text.php:69
+#: includes/options/ReduxCore/inc/fields/multi_text/field_multi_text.php:73
+#: includes/options/ReduxCore/inc/fields/multi_text/field_multi_text.php:76
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:133
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:190
+msgid "Remove"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:97
+msgid "No image selected"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:97
+msgid "Add Image"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:126
+#: includes/acf/core/fields/relationship.php:557
+msgid "Specify the returned value on front end"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:136
+msgid "Image Object"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:137 includes/widgets/maha-ads.php:120
+msgid "Image URL"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:138
+msgid "Image ID"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:146
+msgid "Preview Size"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:147
+msgid "Shown when entering data"
+msgstr ""
+
+#: includes/acf/core/fields/image.php:166
+msgid "Limit the media library choice"
+msgstr ""
+
+#: includes/acf/core/fields/message.php:71
+msgid "Text &amp; HTML entered here will appear inline with the fields"
+msgstr ""
+
+#: includes/acf/core/fields/message.php:72
+msgid "Please note that all text will first be passed through the wp function "
+msgstr ""
+
+#: includes/acf/core/fields/number.php:19
+msgid "Number"
+msgstr ""
+
+#: includes/acf/core/fields/number.php:178
+msgid "Minimum Value"
+msgstr ""
+
+#: includes/acf/core/fields/number.php:194
+msgid "Maximum Value"
+msgstr ""
+
+#: includes/acf/core/fields/number.php:210
+msgid "Step Size"
+msgstr ""
+
+#: includes/acf/core/fields/page_link.php:18
+msgid "Page Link"
+msgstr ""
+
+#: includes/acf/core/fields/page_link.php:19
+#: includes/acf/core/fields/post_object.php:19
+#: includes/acf/core/fields/relationship.php:19
+#: includes/acf/core/fields/taxonomy.php:19
+#: includes/acf/core/fields/user.php:19
+msgid "Relational"
+msgstr ""
+
+#: includes/acf/core/fields/page_link.php:103
+#: includes/acf/core/fields/post_object.php:280
+#: includes/acf/core/fields/relationship.php:576
+#: includes/acf/core/fields/relationship.php:655
+#: includes/acf/core/views/meta_box_location.php:75
+msgid "Post Type"
+msgstr ""
+
+#: includes/acf/core/fields/page_link.php:127
+#: includes/acf/core/fields/post_object.php:329
+#: includes/acf/core/fields/select.php:214
+#: includes/acf/core/fields/taxonomy.php:489
+#: includes/acf/core/fields/user.php:322
+msgid "Allow Null?"
+msgstr ""
+
+#: includes/acf/core/fields/page_link.php:148
+#: includes/acf/core/fields/post_object.php:350
+#: includes/acf/core/fields/select.php:233
+msgid "Select multiple values?"
+msgstr ""
+
+#: includes/acf/core/fields/password.php:19
+#: includes/options/ReduxCore/inc/fields/password/field_password.php:62
+#: plugins/login-with-ajax/default/widget_out.php:17
+msgid "Password"
+msgstr ""
+
+#: includes/acf/core/fields/post_object.php:18
+msgid "Post Object"
+msgstr ""
+
+#: includes/acf/core/fields/post_object.php:194
+#: includes/acf/core/fields/relationship.php:164
+msgid "(no title)"
+msgstr ""
+
+#: includes/acf/core/fields/post_object.php:304
+#: includes/acf/core/fields/relationship.php:600
+msgid "Filter from Taxonomy"
+msgstr ""
+
+#: includes/acf/core/fields/radio.php:18
+msgid "Radio Button"
+msgstr ""
+
+#: includes/acf/core/fields/radio.php:105
+#: includes/acf/core/views/meta_box_location.php:91
+msgid "Other"
+msgstr ""
+
+#: includes/acf/core/fields/radio.php:148
+msgid "Enter your choices one per line"
+msgstr ""
+
+#: includes/acf/core/fields/radio.php:150
+msgid "Red"
+msgstr ""
+
+#: includes/acf/core/fields/radio.php:151
+msgid "Blue"
+msgstr ""
+
+#: includes/acf/core/fields/radio.php:175
+msgid "Add 'other' choice to allow for custom values"
+msgstr ""
+
+#: includes/acf/core/fields/radio.php:187
+msgid "Save 'other' values to the field's choices"
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:18
+msgid "Relationship"
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:29
+msgid "Maximum values reached ( {max} values )"
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:451
+msgid "Search..."
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:462
+msgid "Filter by post type"
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:556
+msgid "Return Format"
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:567
+msgid "Post Objects"
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:568
+msgid "Post IDs"
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:634
+#: includes/options/curated/config.php:354
+#: includes/options/curated/config.php:360 searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:635
+msgid "Post Type Select"
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:643
+msgid "Elements"
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:644
+msgid "Selected elements will be displayed in each result"
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:653
+#: includes/acf/core/views/meta_box_options.php:106
+msgid "Featured Image"
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:654
+msgid "Post Title"
+msgstr ""
+
+#: includes/acf/core/fields/relationship.php:666
+msgid "Maximum posts"
+msgstr ""
+
+#: includes/acf/core/fields/select.php:18
+#: includes/acf/core/fields/select.php:109
+#: includes/acf/core/fields/taxonomy.php:480
+#: includes/acf/core/fields/user.php:313
+msgid "Select"
+msgstr ""
+
+#: includes/acf/core/fields/sidebar_selector-v4.php:25
+msgid "Sidebar Selector"
+msgstr ""
+
+#: includes/acf/core/fields/sidebar_selector-v4.php:71
+msgid "Allow Null"
+msgstr ""
+
+#: includes/acf/core/fields/sidebar_selector-v4.php:135
+msgid "Select a Sidebar"
+msgstr ""
+
+#: includes/acf/core/fields/tab.php:19
+msgid "Tab"
+msgstr ""
+
+#: includes/acf/core/fields/tab.php:68
+msgid ""
+"Use \"Tab Fields\" to better organize your edit screen by grouping your "
+"fields together under separate tab headings."
+msgstr ""
+
+#: includes/acf/core/fields/tab.php:69
+msgid ""
+"All the fields following this \"tab field\" (or until another \"tab field\" "
+"is defined) will be grouped together."
+msgstr ""
+
+#: includes/acf/core/fields/tab.php:70
+msgid "Use multiple tabs to divide your fields into sections."
+msgstr ""
+
+#: includes/acf/core/fields/taxonomy.php:18
+#: includes/acf/core/fields/taxonomy.php:430
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/acf/core/fields/taxonomy.php:374
+#: includes/acf/core/fields/taxonomy.php:383
+msgid "None"
+msgstr ""
+
+#: includes/acf/core/fields/taxonomy.php:474
+#: includes/acf/core/fields/user.php:307
+msgid "Multiple Values"
+msgstr ""
+
+#: includes/acf/core/fields/taxonomy.php:476
+#: includes/acf/core/fields/user.php:309
+msgid "Multi Select"
+msgstr ""
+
+#: includes/acf/core/fields/taxonomy.php:478
+#: includes/acf/core/fields/user.php:311
+msgid "Single Value"
+msgstr ""
+
+#: includes/acf/core/fields/taxonomy.php:479
+msgid "Radio Buttons"
+msgstr ""
+
+#: includes/acf/core/fields/taxonomy.php:508
+msgid "Load & Save Terms to Post"
+msgstr ""
+
+#: includes/acf/core/fields/taxonomy.php:516
+msgid ""
+"Load value based on the post's terms and update the post's terms on save"
+msgstr ""
+
+#: includes/acf/core/fields/taxonomy.php:533
+msgid "Term Object"
+msgstr ""
+
+#: includes/acf/core/fields/taxonomy.php:534
+msgid "Term ID"
+msgstr ""
+
+#: includes/acf/core/fields/text.php:19
+msgid "Text"
+msgstr ""
+
+#: includes/acf/core/fields/text.php:176
+#: includes/acf/core/fields/textarea.php:164
+msgid "Formatting"
+msgstr ""
+
+#: includes/acf/core/fields/text.php:177
+#: includes/acf/core/fields/textarea.php:165
+msgid "Affects value on front end"
+msgstr ""
+
+#: includes/acf/core/fields/text.php:186
+#: includes/acf/core/fields/textarea.php:174
+msgid "No formatting"
+msgstr ""
+
+#: includes/acf/core/fields/text.php:187
+#: includes/acf/core/fields/textarea.php:176
+msgid "Convert HTML into tags"
+msgstr ""
+
+#: includes/acf/core/fields/text.php:195
+#: includes/acf/core/fields/textarea.php:133
+msgid "Character Limit"
+msgstr ""
+
+#: includes/acf/core/fields/text.php:196
+#: includes/acf/core/fields/textarea.php:134
+msgid "Leave blank for no limit"
+msgstr ""
+
+#: includes/acf/core/fields/textarea.php:19
+msgid "Text Area"
+msgstr ""
+
+#: includes/acf/core/fields/textarea.php:148
+msgid "Rows"
+msgstr ""
+
+#: includes/acf/core/fields/textarea.php:149
+msgid "Sets the textarea height"
+msgstr ""
+
+#: includes/acf/core/fields/textarea.php:175
+msgid "Convert new lines into &lt;br /&gt; tags"
+msgstr ""
+
+#: includes/acf/core/fields/true_false.php:19
+msgid "True / False"
+msgstr ""
+
+#: includes/acf/core/fields/true_false.php:80
+msgid "eg. Show extra content"
+msgstr ""
+
+#: includes/acf/core/fields/user.php:18
+#: includes/acf/core/views/meta_box_location.php:94
+msgid "User"
+msgstr ""
+
+#: includes/acf/core/fields/user.php:271
+msgid "Filter by role"
+msgstr ""
+
+#: includes/acf/core/fields/wysiwyg.php:19
+msgid "Wysiwyg Editor"
+msgstr ""
+
+#: includes/acf/core/fields/wysiwyg.php:302
+msgid "Toolbar"
+msgstr ""
+
+#: includes/acf/core/fields/wysiwyg.php:334
+msgid "Show Media Upload Buttons?"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_fields.php:58
+msgid "Field type does not exist"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_fields.php:78
+msgid "Field Key"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_fields.php:90
+msgid ""
+"No fields. Click the <strong>+ Add Field</strong> button to create your "
+"first field."
+msgstr ""
+
+#: includes/acf/core/views/meta_box_fields.php:173
+msgid "Instructions for authors. Shown when submitting data"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_fields.php:186
+msgid "Required?"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_fields.php:209
+msgid "Conditional Logic"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_fields.php:260
+#: includes/acf/core/views/meta_box_location.php:117
+msgid "is equal to"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_fields.php:261
+#: includes/acf/core/views/meta_box_location.php:118
+msgid "is not equal to"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_fields.php:279
+msgid "Show this field when"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_fields.php:285
+msgid "all"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_fields.php:286
+msgid "any"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_fields.php:289
+msgid "these rules are met"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_fields.php:317
+msgid "+ Add Field"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:48
+msgid "Rules"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:49
+msgid ""
+"Create a set of rules to determine which edit screens will use these "
+"advanced custom fields"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:60
+msgid "Show this field group if"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:76
+msgid "Logged in User Type"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:78
+#: includes/acf/core/views/meta_box_location.php:79
+#: includes/widgets/maha-posts.php:29
+msgid "Post"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:80
+msgid "Post Category"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:81
+msgid "Post Format"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:82
+msgid "Post Status"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:83
+msgid "Post Taxonomy"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:85
+#: includes/acf/core/views/meta_box_location.php:86
+#: includes/functions/maha-functions.php:1251
+msgid "Page"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:87
+msgid "Page Type"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:88
+msgid "Page Parent"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:89
+msgid "Page Template"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:92
+msgid "Attachment"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:93
+msgid "Taxonomy Term"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:146
+#: includes/options/ReduxCore/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_location.php:161
+msgid "Add rule group"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:25
+msgid "Order No."
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:26
+msgid "Field groups are created in order <br />from lowest to highest"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:42
+msgid "Position"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:52
+msgid "High (after title)"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:53
+msgid "Normal (after content)"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:54
+msgid "Side"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:64
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Style"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:74
+msgid "Seamless (no metabox)"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:75
+msgid "Standard (WP metabox)"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:84
+msgid "Hide on screen"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:85
+msgid "<b>Select</b> items to <b>hide</b> them from the edit screen"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:86
+msgid ""
+"If multiple field groups appear on an edit screen, the first field group's "
+"options will be used. (the one with the lowest order number)"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:96
+msgid "Permalink"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:97
+msgid "Content Editor"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:98
+msgid "Excerpt"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:99
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:100
+msgid "Discussion"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:101
+msgid "Comments"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:102
+msgid "Revisions"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:103
+msgid "Slug"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:104
+#: includes/options/curated/config.php:1187
+msgid "Author"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:105
+msgid "Format"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:107
+msgid "Categories"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:108
+msgid "Tags"
+msgstr ""
+
+#: includes/acf/core/views/meta_box_options.php:109
+msgid "Send Trackbacks"
+msgstr ""
+
+#: includes/composer/grid3-slider.php:134
+msgid "Minimum number of posts is 6 for grid3 Slider!"
+msgstr ""
+
+#: includes/composer/grid3-slider.php:135
+msgid "Create new post now"
+msgstr ""
+
+#: includes/composer/moz-slider.php:141
+msgid "Minimum number of posts is 7 for Moz Slider!"
+msgstr ""
+
+#: includes/composer/moz-slider.php:143
+msgid "Create new post now "
+msgstr ""
+
+#: includes/content/blocked-slider.php:68
+msgid "Sorry, no posts were found or featured posts not more than 5."
+msgstr ""
+
+#: includes/content/featured-posts.php:293
+msgid "Minimum number of featured posts is 4."
+msgstr ""
+
+#: includes/content/running-text.php:236
+msgid "Minimum number of posts is 5 for running text."
+msgstr ""
+
+#: includes/functions/maha-functions.php:710
+msgid "No menu assigned!"
+msgstr ""
+
+#: includes/functions/maha-functions.php:1080
+msgid "Home"
+msgstr ""
+
+#: includes/functions/maha-functions.php:1081
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: includes/functions/maha-functions.php:1082
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: includes/functions/maha-functions.php:1083
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: includes/functions/maha-functions.php:1084
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: includes/functions/maha-functions.php:1085
+msgid "Error 404"
+msgstr ""
+
+#: includes/functions/maha-functions.php:1288
+msgid "Prev"
+msgstr ""
+
+#: includes/functions/maha-functions.php:1289
+msgid "Next"
+msgstr ""
+
+#: includes/functions/maha-posts-view.php:37
+msgid "0"
+msgstr ""
+
+#: includes/options/ReduxCore/core/enqueue.php:452
+#: includes/options/ReduxCore/inc/extensions/customizer/extension_customizer.php:685
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: includes/options/ReduxCore/core/enqueue.php:460
+#: includes/options/ReduxCore/inc/extensions/customizer/extension_customizer.php:686
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: includes/options/ReduxCore/core/enqueue.php:468
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: includes/options/ReduxCore/core/enqueue.php:476
+#: includes/options/ReduxCore/inc/extensions/customizer/extension_customizer.php:687
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: includes/options/ReduxCore/core/enqueue.php:483
+msgid "Please Wait"
+msgstr ""
+
+#: includes/options/ReduxCore/core/enqueue.php:494
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: includes/options/ReduxCore/core/enqueue.php:495
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: includes/options/ReduxCore/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: includes/options/ReduxCore/core/panel.php:141
+msgid "Settings Imported!"
+msgstr ""
+
+#: includes/options/ReduxCore/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: includes/options/ReduxCore/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: includes/options/ReduxCore/core/panel.php:184
+msgid "Settings Saved!"
+msgstr ""
+
+#: includes/options/ReduxCore/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: includes/options/ReduxCore/core/panel.php:212
+msgid "error(s) were found!"
+msgstr ""
+
+#: includes/options/ReduxCore/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr ""
+
+#: includes/options/ReduxCore/core/panel.php:312
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be "
+"the reason. Ensure you update or remove them."
+msgstr ""
+
+#: includes/options/ReduxCore/framework.php:220
+msgid "Options panel created using Redux Framework"
+msgstr ""
+
+#: includes/options/ReduxCore/framework.php:1751
+msgid "Enable"
+msgstr ""
+
+#: includes/options/ReduxCore/framework.php:1756
+msgid "Disable"
+msgstr ""
+
+#: includes/options/ReduxCore/framework.php:1762
+msgid "moving the mouse over"
+msgstr ""
+
+#: includes/options/ReduxCore/framework.php:1764
+msgid "clicking"
+msgstr ""
+
+#: includes/options/ReduxCore/framework.php:1768
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+#: includes/options/ReduxCore/framework.php:1773
+msgid "Hints"
+msgstr ""
+
+#: includes/options/ReduxCore/framework.php:1900
+msgid "Default"
+msgstr ""
+
+#: includes/options/ReduxCore/framework.php:2778
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: includes/options/ReduxCore/framework.php:2787
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: includes/options/ReduxCore/framework.php:2867
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: includes/options/ReduxCore/framework.php:3977
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>admin_bar_links</code> "
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: includes/options/ReduxCore/framework.php:3992
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>share_icons</code> argument.  "
+"This is sample data.  Please change or remove this data before shipping your "
+"product."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/class.redux_cdn.php:74
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/class.redux_cdn.php:76
+#, php-format
+msgid ""
+"If you are developing offline, please download and install the <a href=\"%s"
+"\" target=\"_blank\">Redux Vendor Support</a> plugin/extension to bypass the "
+"our CDN and avoid this warning"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/class.redux_cdn.php:81
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/class.redux_cdn.php:81
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/class.redux_cdn.php:113
+#, php-format
+msgid ""
+"The <a href=\"%s\">Vendor Support plugin</a> (or extension) is either not "
+"installed or not activated and thus, some controls may not render properly.  "
+"Please ensure that it is installed and <a href=\"%s\">activated</a>"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/class.redux_filesystem.php:31
+#: includes/options/ReduxCore/inc/class.redux_filesystem.php:60
+#: includes/options/ReduxCore/inc/class.redux_filesystem.php:271
+msgid "File Permission Issues"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/class.redux_filesystem.php:31
+#, php-format
+msgid ""
+"We were unable to modify required files. Please check your permissions, or "
+"modify your wp-config.php file to contain your FTP login credentials as <a "
+"href=\"%s\" target=\"_blank\">outlined here</a>."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/class.redux_filesystem.php:60
+#: includes/options/ReduxCore/inc/class.redux_filesystem.php:271
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that <code>%1s</code> "
+"has the proper read-write permissions, or modify your wp-config.php file to "
+"contain your FTP login credentials as <a href=\"%2s\" target=\"_blank"
+"\">outlined here</a>."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/class.redux_helpers.php:610
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/extensions/customizer/extension_customizer.php:720
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/extensions/customizer/extension_customizer.php:721
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/extensions/customizer/extension_customizer.php:722
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:114
+#: includes/options/ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:142
+#, php-format
+msgid "You are customizing %s"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/extensions/customizer/inc/customizer_section.php:72
+msgid "Press return or enter to open"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/extensions/customizer/inc/customizer_section.php:79
+msgid "Back"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/extensions/import_export/extension_import_export.php:120
+msgid "Import / Export"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:104
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:111
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:124
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/extensions/options_object/extension_options_object.php:82
+msgid "Options Object"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/background/field_background.php:124
+#: includes/options/ReduxCore/inc/fields/color/field_color.php:73
+#: includes/options/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:79
+#: includes/options/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/background/field_background.php:277
+#: includes/options/ReduxCore/inc/fields/media/field_media.php:149
+msgid "No media selected"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/background/field_background.php:314
+#: includes/options/ReduxCore/inc/fields/media/field_media.php:198
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:126
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/border/field_border.php:138
+#: includes/options/ReduxCore/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/border/field_border.php:145
+#: includes/options/ReduxCore/inc/fields/spacing/field_spacing.php:222
+#: includes/widgets/maha-ads.php:143
+msgid "Right"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/border/field_border.php:152
+#: includes/options/ReduxCore/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/border/field_border.php:159
+#: includes/options/ReduxCore/inc/fields/spacing/field_spacing.php:236
+#: includes/widgets/maha-ads.php:142
+msgid "Left"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/border/field_border.php:174
+msgid "Border style"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/dimensions/field_dimensions.php:162
+msgid "Width"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/dimensions/field_dimensions.php:189
+#: includes/options/ReduxCore/inc/fields/dimensions/field_dimensions.php:190
+#: includes/options/ReduxCore/inc/fields/spacing/field_spacing.php:245
+#: includes/options/ReduxCore/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/link_color/field_link_color.php:88
+msgid "Regular"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/link_color/field_link_color.php:92
+msgid "Hover"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/link_color/field_link_color.php:96
+msgid "Visited"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/link_color/field_link_color.php:100
+#: includes/plugins/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/multi_text/field_multi_text.php:61
+msgid "Add More"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/select/field_select.php:83
+#: includes/options/ReduxCore/inc/fields/select_image/field_select_image.php:63
+msgid "Select an item"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/select/field_select.php:134
+#: includes/options/ReduxCore/inc/fields/select_image/field_select_image.php:144
+msgid "No items of this type were found."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:73
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:174
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:149
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:204
+msgid "Description"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:153
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:258
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:273
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:342
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:343
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:365
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:366
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:388
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:389
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:408
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:409
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:432
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:441
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:450
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:459
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:890
+msgid "Standard Fonts"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/fields/typography/field_typography.php:991
+msgid "Google Webfonts"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/themecheck/checks/embedded.php:15
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: If you are "
+"submitting to WordPress.org Theme Repository, it is <strong>strongly</"
+"strong> suggested that you read <a href=\"%s\" target=\"_blank\">this "
+"document</a>, or your theme will be rejected because of Redux."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/themecheck/checks/embedded.php:24
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-required\">REQUIRED</span>: You MUST delete "
+"<strong> %s </strong>, or your theme will be rejected by WP.org theme "
+"submission because of Redux."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/themecheck/checks/embedded.php:38
+msgid "Optional"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/themecheck/checks/embedded.php:40
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: The following "
+"arguments MUST be used for WP.org submissions, or you will be rejected "
+"because of your Redux configuration."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/themecheck/checks/full_package.php:16
+msgid "Redux localization utilities"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/themecheck/checks/full_package.php:17
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/themecheck/checks/full_package.php:18
+msgid "Redux Code Styles"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/themecheck/checks/full_package.php:19
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/themecheck/checks/full_package.php:20
+msgid "Redux Plugin File"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/themecheck/checks/full_package.php:21
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/themecheck/checks/full_package.php:22
+msgid "CI Testing FIle"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/themecheck/checks/full_package.php:23
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/themecheck/checks/full_package.php:36
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the <strong>ReduxCore</strong> folder. Embedding "
+"anything else will get your rejected from theme submission. Suspected Redux "
+"package file(s):"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/tracking.php:152
+#, php-format
+msgid ""
+"This panel demonstrates the many features of Redux.  Before digging in, we "
+"suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/tracking.php:153
+#, php-format
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized "
+"boilerplate theme or a standalone admin folder complete with all things "
+"Redux (with the help of Underscores and TGM). Save yourself a headache and "
+"try it today."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/tracking.php:154
+#, php-format
+msgid ""
+"Did you know we have extensions, which greatly enhance the features of "
+"Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/tracking.php:155
+#, php-format
+msgid ""
+"If so, please %1$s and consider making a %2$s to keep development of Redux "
+"moving forward."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/validation/color/validation_color.php:15
+#: includes/options/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:14
+#: includes/options/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/validation/css/validation_css.php:39
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/validation/email/validation_email.php:16
+#: includes/options/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/validation/numeric/validation_numeric.php:16
+#: includes/options/ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/validation/unique_slug/validation_unique_slug.php:16
+#, php-format
+msgid ""
+"That URL slug is in use, please choose another. <code>%s</code> is open for "
+"use."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/about.php:2
+#, php-format
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/about.php:5
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Redux Framework %s is a huge "
+"step forward in Redux Development. Look at all that's new."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/about.php:8
+#: includes/options/ReduxCore/inc/welcome/views/changelog.php:10
+#: includes/options/ReduxCore/inc/welcome/views/credits.php:10
+#: includes/options/ReduxCore/inc/welcome/views/extensions.php:81
+#: includes/options/ReduxCore/inc/welcome/views/status_report.php:34
+#: includes/options/ReduxCore/inc/welcome/views/support.php:8
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/about.php:15
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/about.php:17
+msgid ""
+"Redux Framework is the core of many products on the web. It is an option "
+"framework which developers use to\n"
+"            enhance their products."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/about.php:22
+msgid "Learn More"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/about.php:28
+msgid "New in this Release"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/credits.php:18
+#, php-format
+msgid ""
+"Redux is created by a community of developers world wide. Want to have your "
+"name listed too? <a href=\"%d\" target=\"_blank\">Contribute to Redux</a>."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/extensions.php:76
+msgid ""
+"Supercharge your Redux experience. Our extensions provide you with features "
+"that will take your products to the next level."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/status_report.php:120
+#, php-format
+msgid "To allow data saving, make <code>%s</code> writable."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/status_report.php:220
+#, php-format
+msgid ""
+"%s - We recommend setting memory to at least 40MB. See: <a href=\"%s\" "
+"target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/status_report.php:416
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/status_report.php:482
+#: includes/options/ReduxCore/inc/welcome/views/status_report.php:497
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/status_report.php:737
+#, php-format
+msgid ""
+"If you're modifying Redux Framework or a parent theme you didn't build "
+"personally, we recommend using a child theme. See: <a href=\"%s\" target="
+"\"_blank\">How to create a child theme</a>"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/support.php:35
+#, php-format
+msgid ""
+"This will provide to your developer all the information they may need to "
+"remedy your issue. This action WILL send information securely to a remote "
+"server. To see the type of information sent, please look at the  <a href=\"%s"
+"\">Status tab</a>."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/views/support.php:134
+#, php-format
+msgid ""
+"Should the developer not be responsive, read the <a href=\"%s\" target="
+"\"_blank\">following article</a> before asking for support from us directly."
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/welcome.php:106
+msgid ""
+"If you like <strong>Redux</strong> please leave us a <a href=\"https://"
+"wordpress.org/support/view/plugin-reviews/redux-framework?filter=5#postform"
+"\" target=\"_blank\" class=\"redux-rating-link\" data-rated="
+"\"Thanks :)\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. A huge thank "
+"you from Redux in advance!"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/welcome.php:306
+msgid "Credits"
+msgstr ""
+
+#: includes/options/ReduxCore/inc/welcome/welcome.php:472
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/options/ReduxCore/templates/panel/footer.tpl.php:61
+msgid "Reset Section"
+msgstr ""
+
+#: includes/options/ReduxCore/templates/panel/footer.tpl.php:62
+msgid "Reset All"
+msgstr ""
+
+#: includes/options/ReduxCore/templates/panel/footer.tpl.php:67
+msgid "Working..."
+msgstr ""
+
+#: includes/options/ReduxCore/templates/panel/header.tpl.php:11
+#: includes/options/ReduxCore/templates/panel/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: includes/options/ReduxCore/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: includes/options/ReduxCore/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: includes/options/ReduxCore/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: includes/options/ReduxCore/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: includes/options/ReduxCore/templates/panel/header.tpl.php:58
+msgid "FORCED DEV MODE OFF ENABLED"
+msgstr ""
+
+#: includes/options/curated/config.php:184
+msgid "Theme Information 1"
+msgstr ""
+
+#: includes/options/curated/config.php:185
+#: includes/options/curated/config.php:190
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: includes/options/curated/config.php:189
+msgid "Theme Information 2"
+msgstr ""
+
+#: includes/options/curated/config.php:196
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: includes/options/curated/config.php:236
+msgid "General"
+msgstr ""
+
+#: includes/options/curated/config.php:244
+msgid "Favicon"
+msgstr ""
+
+#: includes/options/curated/config.php:245
+#: includes/options/curated/config.php:254
+#: includes/options/curated/config.php:263
+#: includes/options/curated/config.php:272
+msgid "Please upload your favicon here."
+msgstr ""
+
+#: includes/options/curated/config.php:246
+msgid "Recommended size is (16px -Width) and (16px -Height)."
+msgstr ""
+
+#: includes/options/curated/config.php:253
+msgid "IOS Bookmarklet 76x76"
+msgstr ""
+
+#: includes/options/curated/config.php:255
+msgid "Recommended size is (76px -Width) and (76px -Height)."
+msgstr ""
+
+#: includes/options/curated/config.php:262
+msgid "IOS Bookmarklet 114x114"
+msgstr ""
+
+#: includes/options/curated/config.php:264
+msgid "Recommended size is (114px -Width) and (114px -Height)."
+msgstr ""
+
+#: includes/options/curated/config.php:271
+msgid "IOS Bookmarklet 144x144"
+msgstr ""
+
+#: includes/options/curated/config.php:273
+msgid "Recommended size is (144px -Width) and (144px -Height)."
+msgstr ""
+
+#: includes/options/curated/config.php:284
+msgid "Animation"
+msgstr ""
+
+#: includes/options/curated/config.php:285
+msgid "some elements transition when it's appear"
+msgstr ""
+
+#: includes/options/curated/config.php:291
+msgid "Responsive"
+msgstr ""
+
+#: includes/options/curated/config.php:292
+msgid "Responsive layout on small devices"
+msgstr ""
+
+#: includes/options/curated/config.php:298
+msgid "Top Bar"
+msgstr ""
+
+#: includes/options/curated/config.php:299
+msgid "Top Bar on dekstop"
+msgstr ""
+
+#: includes/options/curated/config.php:305
+msgid "Boxed Layout"
+msgstr ""
+
+#: includes/options/curated/config.php:306
+msgid "When it enabled, layout will show in boxed style."
+msgstr ""
+
+#: includes/options/curated/config.php:326
+#: includes/options/curated/config.php:327
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/options/curated/config.php:343
+#: includes/options/curated/config.php:1896
+msgid "Header"
+msgstr ""
+
+#: includes/options/curated/config.php:344
+msgid ""
+"<p class=\"description\">All Header related options are listed here.</p>"
+msgstr ""
+
+#: includes/options/curated/config.php:361
+msgid "When in disabled search will not show"
+msgstr ""
+
+#: includes/options/curated/config.php:367
+msgid "Search Result Option"
+msgstr ""
+
+#: includes/options/curated/config.php:368
+msgid "Please select option for search results."
+msgstr ""
+
+#: includes/options/curated/config.php:379
+msgid "Ajax Search"
+msgstr ""
+
+#: includes/options/curated/config.php:380
+msgid "When in disabled ajax search will not show"
+msgstr ""
+
+#: includes/options/curated/config.php:386
+msgid "Ajax Search Number of Post"
+msgstr ""
+
+#: includes/options/curated/config.php:387
+msgid "Please select number of ajax search post."
+msgstr ""
+
+#: includes/options/curated/config.php:407
+#: includes/options/curated/config.php:1907
+msgid "Top Navigation - Header"
+msgstr ""
+
+#: includes/options/curated/config.php:413
+msgid "Social Network"
+msgstr ""
+
+#: includes/options/curated/config.php:414
+msgid "Enter your Social Netowork URL. Leave blank if you don't wanna show"
+msgstr ""
+
+#: includes/options/curated/config.php:503
+#: includes/options/curated/config.php:1956
+msgid "Main Menu - Header"
+msgstr ""
+
+#: includes/options/curated/config.php:520
+msgid "Logo"
+msgstr ""
+
+#: includes/options/curated/config.php:521
+msgid "Please upload your logo here."
+msgstr ""
+
+#: includes/options/curated/config.php:522
+msgid "Recommended size is less than (270px Width) and (90px Height)."
+msgstr ""
+
+#: includes/options/curated/config.php:529
+msgid "Logo Retina"
+msgstr ""
+
+#: includes/options/curated/config.php:530
+msgid "Please upload your logo (retina) here."
+msgstr ""
+
+#: includes/options/curated/config.php:531
+msgid "Recommended size is less than (540px Width) and (180px Height)."
+msgstr ""
+
+#: includes/options/curated/config.php:538
+msgid "Small Logo"
+msgstr ""
+
+#: includes/options/curated/config.php:539
+msgid "Please upload your logo for small navigation here."
+msgstr ""
+
+#: includes/options/curated/config.php:540
+msgid "Recommended size is less than (50px Height)."
+msgstr ""
+
+#: includes/options/curated/config.php:547
+msgid "Small Logo Retina"
+msgstr ""
+
+#: includes/options/curated/config.php:548
+msgid "Please upload your logo (retina) for small navigation here."
+msgstr ""
+
+#: includes/options/curated/config.php:549
+msgid "Recommended size is less than (100px Height)."
+msgstr ""
+
+#: includes/options/curated/config.php:640
+msgid "Ads - Header"
+msgstr ""
+
+#: includes/options/curated/config.php:646
+msgid "Ads Code for 768x90"
+msgstr ""
+
+#: includes/options/curated/config.php:647
+msgid "Paste your Ads 768x90 pixel code here."
+msgstr ""
+
+#: includes/options/curated/config.php:648
+msgid "Possible use < html >, < img >, < script > here."
+msgstr ""
+
+#: includes/options/curated/config.php:656
+msgid "Ads Code for 468x60"
+msgstr ""
+
+#: includes/options/curated/config.php:657
+msgid "Paste your Ads 468x60 pixel code here."
+msgstr ""
+
+#: includes/options/curated/config.php:658
+#: includes/options/curated/config.php:668
+msgid ""
+"Plase Use < script > tag to add Javascript code, and it's possible to use < "
+"html >, < img >, < style > here."
+msgstr ""
+
+#: includes/options/curated/config.php:666
+msgid "Ads Code for 320x50"
+msgstr ""
+
+#: includes/options/curated/config.php:667
+msgid "Paste your Ads 320x50 pixel code here."
+msgstr ""
+
+#: includes/options/curated/config.php:705
+msgid ""
+"<p class=\"description\">All Content related options are listed here.</p>"
+msgstr ""
+
+#: includes/options/curated/config.php:715
+msgid "Modules and Blocked layout"
+msgstr ""
+
+#: includes/options/curated/config.php:721
+msgid "Module & Blocked Meta"
+msgstr ""
+
+#: includes/options/curated/config.php:722
+msgid "Uncheck for hide module & blocked meta."
+msgstr ""
+
+#: includes/options/curated/config.php:761
+#: includes/options/curated/config.php:767
+msgid "Running Text"
+msgstr ""
+
+#: includes/options/curated/config.php:768
+msgid "When in disabled running text will not show"
+msgstr ""
+
+#: includes/options/curated/config.php:774
+msgid "Running Text Number of Post"
+msgstr ""
+
+#: includes/options/curated/config.php:775
+msgid "Please select number of running text post."
+msgstr ""
+
+#: includes/options/curated/config.php:784
+msgid "Running Text Tag Filter"
+msgstr ""
+
+#: includes/options/curated/config.php:785
+msgid "Please check tag for running text filter."
+msgstr ""
+
+#: includes/options/curated/config.php:792
+msgid "Running Text Category Filter"
+msgstr ""
+
+#: includes/options/curated/config.php:793
+msgid "Please check category for running text filter."
+msgstr ""
+
+#: includes/options/curated/config.php:800
+msgid "Running Text Filter"
+msgstr ""
+
+#: includes/options/curated/config.php:801
+msgid "Please select the running text filter."
+msgstr ""
+
+#: includes/options/curated/config.php:831
+#: includes/options/curated/config.php:844
+msgid "Breadcrumb"
+msgstr ""
+
+#: includes/options/curated/config.php:845
+msgid "When it disabled, breadcrumb will not show."
+msgstr ""
+
+#: includes/options/curated/config.php:864
+msgid "User Photo Style (Author and comment)"
+msgstr ""
+
+#: includes/options/curated/config.php:870
+msgid "Author Profile style"
+msgstr ""
+
+#: includes/options/curated/config.php:871
+msgid "Please select the Author and Comment avatar photo style"
+msgstr ""
+
+#: includes/options/curated/config.php:891
+msgid "Single Page & Builder"
+msgstr ""
+
+#: includes/options/curated/config.php:897
+#: includes/options/curated/config.php:979
+msgid "Affix Sidebar"
+msgstr ""
+
+#: includes/options/curated/config.php:898
+msgid "affix sidebar on single page & builder."
+msgstr ""
+
+#: includes/options/curated/config.php:914
+#: includes/options/curated/config.php:1653
+msgid "Single Post"
+msgstr ""
+
+#: includes/options/curated/config.php:920
+msgid "Meta Count on Single Post"
+msgstr ""
+
+#: includes/options/curated/config.php:921
+msgid "Uncheck to hide meta count."
+msgstr ""
+
+#: includes/options/curated/config.php:941
+msgid "Play button text on Single Post"
+msgstr ""
+
+#: includes/options/curated/config.php:942
+msgid "When it disabled, Text on the bottom button will not show"
+msgstr ""
+
+#: includes/options/curated/config.php:948
+msgid "Play Button Text"
+msgstr ""
+
+#: includes/options/curated/config.php:949
+msgid "Please enter the play button text."
+msgstr ""
+
+#: includes/options/curated/config.php:956
+msgid "Global - Featured image on Regular Cover style"
+msgstr ""
+
+#: includes/options/curated/config.php:957
+msgid ""
+"When it disabled, featured image on Regular Cover will disappear even the "
+"single post setting is enable "
+msgstr ""
+
+#: includes/options/curated/config.php:968
+msgid "Related Posts Position"
+msgstr ""
+
+#: includes/options/curated/config.php:969
+msgid "Please select the Related Posts position"
+msgstr ""
+
+#: includes/options/curated/config.php:980
+msgid "affix sidebar on single post."
+msgstr ""
+
+#: includes/options/curated/config.php:999
+msgid "Top Sticky Posts"
+msgstr ""
+
+#: includes/options/curated/config.php:1005
+msgid "Number of Sticky Posts"
+msgstr ""
+
+#: includes/options/curated/config.php:1006
+msgid "Please select number of top sticky post."
+msgstr ""
+
+#: includes/options/curated/config.php:1015
+msgid "Tag Filter"
+msgstr ""
+
+#: includes/options/curated/config.php:1016
+msgid "Please check tag for top sticky filter."
+msgstr ""
+
+#: includes/options/curated/config.php:1023
+msgid "Category Filter"
+msgstr ""
+
+#: includes/options/curated/config.php:1024
+msgid "Please check category for top sticky filter."
+msgstr ""
+
+#: includes/options/curated/config.php:1031
+msgid "Sorting"
+msgstr ""
+
+#: includes/options/curated/config.php:1032
+msgid "Please select the top sticky filter."
+msgstr ""
+
+#: includes/options/curated/config.php:1157
+msgid "Homepage"
+msgstr ""
+
+#: includes/options/curated/config.php:1158
+msgid ""
+"<p class=\"description\"> All Homepage related options are listed here.</p>"
+msgstr ""
+
+#: includes/options/curated/config.php:1165
+msgid "Latest Post Layout"
+msgstr ""
+
+#: includes/options/curated/config.php:1166
+msgid "Please select the Latest Post layout when open the posts by Tag & Date"
+msgstr ""
+
+#: includes/options/curated/config.php:1188
+msgid ""
+"<p class=\"description\"> All Author related options are listed here.</p>"
+msgstr ""
+
+#: includes/options/curated/config.php:1195
+msgid "Posts by Author Layout"
+msgstr ""
+
+#: includes/options/curated/config.php:1196
+msgid "Please select the Module layout when open the posts by an Author"
+msgstr ""
+
+#: includes/options/curated/config.php:1208
+msgid "Author Post Summary"
+msgstr ""
+
+#: includes/options/curated/config.php:1209
+msgid "When it disabled, author post summary will not show."
+msgstr ""
+
+#: includes/options/curated/config.php:1223
+msgid "Archive"
+msgstr ""
+
+#: includes/options/curated/config.php:1224
+msgid ""
+"<p class=\"description\">All Archive related options are listed here.</p>"
+msgstr ""
+
+#: includes/options/curated/config.php:1231
+msgid "Posts by Tag & Date Layout"
+msgstr ""
+
+#: includes/options/curated/config.php:1232
+msgid "Please select the Module layout when open the posts by Tag & Date"
+msgstr ""
+
+#: includes/options/curated/config.php:1244
+msgid "Archive Post Summary"
+msgstr ""
+
+#: includes/options/curated/config.php:1245
+msgid "When it disabled, archive post summary will not show."
+msgstr ""
+
+#: includes/options/curated/config.php:1251
+msgid "Category Post Summary"
+msgstr ""
+
+#: includes/options/curated/config.php:1252
+msgid "When it disabled, category post summary will not show."
+msgstr ""
+
+#: includes/options/curated/config.php:1261
+#: includes/options/curated/config.php:1731
+msgid "Sidebar"
+msgstr ""
+
+#: includes/options/curated/config.php:1262
+msgid "Select sidebar for archive pages"
+msgstr ""
+
+#: includes/options/curated/config.php:1278
+msgid "404 Page"
+msgstr ""
+
+#: includes/options/curated/config.php:1279
+msgid ""
+"<p class=\"description\"> All 404 Page related options are listed here.</p>"
+msgstr ""
+
+#: includes/options/curated/config.php:1286
+msgid "404 Page Title"
+msgstr ""
+
+#: includes/options/curated/config.php:1287
+msgid "Please enter the 404 Page title to give information to your audience."
+msgstr ""
+
+#: includes/options/curated/config.php:1294
+msgid "404 Page Information"
+msgstr ""
+
+#: includes/options/curated/config.php:1295
+msgid ""
+"Please enter the 404 Page description that useful information for your "
+"audience."
+msgstr ""
+
+#: includes/options/curated/config.php:1302
+msgid "Button Back to Home"
+msgstr ""
+
+#: includes/options/curated/config.php:1303
+msgid "Please enter the Text Button that will return to Homepage."
+msgstr ""
+
+#: includes/options/curated/config.php:1318
+#: includes/options/curated/config.php:2279
+msgid "Footer"
+msgstr ""
+
+#: includes/options/curated/config.php:1319
+msgid ""
+"<p class=\"description\"> All Footer related options are listed here.</p>"
+msgstr ""
+
+#: includes/options/curated/config.php:1329
+msgid "Footer Widget"
+msgstr ""
+
+#: includes/options/curated/config.php:1335
+msgid "Show Footer Widget"
+msgstr ""
+
+#: includes/options/curated/config.php:1336
+msgid "When it disabled, Footer will disappear from footer"
+msgstr ""
+
+#: includes/options/curated/config.php:1387
+#: includes/options/curated/config.php:2337
+msgid "Footer Copyright & Menus"
+msgstr ""
+
+#: includes/options/curated/config.php:1411
+msgid "Copyright"
+msgstr ""
+
+#: includes/options/curated/config.php:1412
+msgid "Enter your copyright text, it's possible for shortcode too."
+msgstr ""
+
+#: includes/options/curated/config.php:1418
+msgid "Additional menu"
+msgstr ""
+
+#: includes/options/curated/config.php:1419
+msgid "Please select one of the menu if you want to show a menu on the footer"
+msgstr ""
+
+#: includes/options/curated/config.php:1420
+msgid ""
+"It's just support for 1st level menu, so the 2nd level of menu will not "
+"appear."
+msgstr ""
+
+#: includes/options/curated/config.php:1426
+msgid "Menus Link Color"
+msgstr ""
+
+#: includes/options/curated/config.php:1427
+msgid "Please select an options for Menu link #hover"
+msgstr ""
+
+#: includes/options/curated/config.php:1428
+msgid ""
+"It's mean when the #hover a link, the color will change as defined this "
+"option."
+msgstr ""
+
+#: includes/options/curated/config.php:1457
+msgid "Social Media"
+msgstr ""
+
+#: includes/options/curated/config.php:1464
+msgid "Facebook Token"
+msgstr ""
+
+#: includes/options/curated/config.php:1465
+msgid ""
+"If you do not have a Facebook App, you can follow this video (<a target="
+"\"_blank\" href=\"http://youtu.be/oyjh40d_zbY\">http://youtu.be/oyjh40d_zbY</"
+"a>) to create a Facebook App via <a target=\"_blank\" href=\"https://"
+"developers.facebook.com\">https://developers.facebook.com</a> </br></br>\n"
+"\t\t\t\tThere is 2 way to get your Facebook token :</br>\n"
+"\t\t\t\t<strong>1. Merge your \"App ID\" + \"|\" + \"App Secret\"</strong></"
+"br>\n"
+"\t\t\t\t<span>&nbsp;&nbsp;&nbsp;</span> by adding \"|\" character between "
+"your \"App ID\" and \"App Secret\"</br></br>\n"
+"\n"
+"\t\t\t\t<strong>2. Generate via Facebook Graph API Explorer</strong></br>\n"
+"\t\t\t\t<span>&nbsp;&nbsp;&nbsp;</span> On Facebook Developers Page, Go to "
+"menu \"Tools & Support > Graph API Explorer\" </br></br>\n"
+"\n"
+"\t\t\t\tYou can see both of them via this video <a target=\"_blank\" href="
+"\"http://youtu.be/oyjh40d_zbY\">http://youtu.be/oyjh40d_zbY</a></br>"
+msgstr ""
+
+#: includes/options/curated/config.php:1479
+msgid "Google API Key (Google+ & Youtube)"
+msgstr ""
+
+#: includes/options/curated/config.php:1480
+msgid ""
+"If you do not have a Google Project, you can follow this video (<a target="
+"\"_blank\" href=\"https://www.youtube.com/watch?v=NENb_klOR3w\">https://www."
+"youtube.com/watch?v=NENb_klOR3w</a>) to create a Google project and get the "
+"Google+ API Key via <a target=\"_blank\" href=\"https://console.developers."
+"google.com/\">https://console.developers.google.com/</a> </br></br>"
+msgstr ""
+
+#: includes/options/curated/config.php:1486
+msgid "Twitter - Consumer Key"
+msgstr ""
+
+#: includes/options/curated/config.php:1487
+msgid ""
+"If you do not have a Twitter App, you can follow this video (<a target="
+"\"_blank\" href=\"https://youtu.be/dnad-jfJXaw\">https://youtu.be/dnad-"
+"jfJXaw</a>) to create a Twitter App to get the Twitter Consumer Key and "
+"Consumer Secret via <a target=\"_blank\" href=\"https://apps.twitter.com/"
+"\">https://apps.twitter.com/</a> </br></br>"
+msgstr ""
+
+#: includes/options/curated/config.php:1493
+msgid "Twitter - Consumer Secret"
+msgstr ""
+
+#: includes/options/curated/config.php:1499
+msgid "Instagram Token"
+msgstr ""
+
+#: includes/options/curated/config.php:1500
+msgid ""
+"If you do not have an Instagram Client, you can get your Instagram Token "
+"code by login to our \"Instagram Token Generator\". Get your Instagram token "
+"via this link <a target=\"_blank\" href=\"http://mahathemes.com/instagram/"
+"\">http://mahathemes.com/instagram/</a> </br></br>\n"
+"\n"
+"\t\t\t\t(We never collect your data, It is Safe)"
+msgstr ""
+
+#: includes/options/curated/config.php:1508
+msgid "Pinterest Token"
+msgstr ""
+
+#: includes/options/curated/config.php:1509
+msgid ""
+"Get your Pinterest token via this link <a target=\"_blank\" href=\"https://"
+"developers.pinterest.com/tools/access_token/\">https://developers.pinterest."
+"com/tools/access_token/</a> </br></br>\n"
+"\t\t\t\tNote: Check read_public only for security reason."
+msgstr ""
+
+#: includes/options/curated/config.php:1516
+msgid "Tumblr - Token"
+msgstr ""
+
+#: includes/options/curated/config.php:1517
+msgid ""
+"If you do not have a Tumblr Token get the Tumblr Token and Token Secret via "
+"<a target=\"_blank\" href=\"http://mahathemes.com/tumblr/\">http://"
+"mahathemes.com/tumblr/</a> </br></br>(We never collect your data, It is Safe)"
+msgstr ""
+
+#: includes/options/curated/config.php:1523
+msgid "Tumblr - Token Secret"
+msgstr ""
+
+#: includes/options/curated/config.php:1549
+msgid "Woocommerce"
+msgstr ""
+
+#: includes/options/curated/config.php:1556
+msgid "Number of products per page"
+msgstr ""
+
+#: includes/options/curated/config.php:1557
+msgid "Enter number of products"
+msgstr ""
+
+#: includes/options/curated/config.php:1571
+msgid "BBPress"
+msgstr ""
+
+#: includes/options/curated/config.php:1578
+msgid "BBPress Sidebar"
+msgstr ""
+
+#: includes/options/curated/config.php:1579
+msgid "BBPress sidebar"
+msgstr ""
+
+#: includes/options/curated/config.php:1585
+msgid "Select BBPress Sidebar"
+msgstr ""
+
+#: includes/options/curated/config.php:1586
+msgid "Select sidebar for BBPress"
+msgstr ""
+
+#: includes/options/curated/config.php:1601
+msgid "BuddyPress"
+msgstr ""
+
+#: includes/options/curated/config.php:1608
+#: includes/options/curated/config.php:1609
+msgid "BuddyPress Sidebar"
+msgstr ""
+
+#: includes/options/curated/config.php:1615
+msgid "Select BuddyPress Sidebar"
+msgstr ""
+
+#: includes/options/curated/config.php:1616
+msgid "Select Sidebar for BuddyPress"
+msgstr ""
+
+#: includes/options/curated/config.php:1643
+msgid "Editable Text"
+msgstr ""
+
+#: includes/options/curated/config.php:1659
+msgid "Editor Review"
+msgstr ""
+
+#: includes/options/curated/config.php:1660
+#: includes/options/curated/config.php:1667
+#: includes/options/curated/config.php:1674
+#: includes/options/curated/config.php:1681
+#: includes/options/curated/config.php:1688
+#: includes/options/curated/config.php:1695
+#: includes/options/curated/config.php:1702
+#: includes/options/curated/config.php:1709
+msgid "Change this text"
+msgstr ""
+
+#: includes/options/curated/config.php:1666
+msgid "Related Articles"
+msgstr ""
+
+#: includes/options/curated/config.php:1673
+msgid "Next Article"
+msgstr ""
+
+#: includes/options/curated/config.php:1680
+msgid "Previous Article"
+msgstr ""
+
+#: includes/options/curated/config.php:1687
+msgid "About Auhtor"
+msgstr ""
+
+#: includes/options/curated/config.php:1694
+msgid "Leave A Reply"
+msgstr ""
+
+#: includes/options/curated/config.php:1701
+msgid "Cancel Reply"
+msgstr ""
+
+#: includes/options/curated/config.php:1708
+msgid "Post Comment"
+msgstr ""
+
+#: includes/options/curated/config.php:1738
+msgid "Theme Sidebars"
+msgstr ""
+
+#: includes/options/curated/config.php:1739
+msgid ""
+"Click 'Add More' to create new sidebar, click 'Remove' to delete the sidebar"
+msgstr ""
+
+#: includes/options/curated/config.php:1740
+msgid "Enter new Sidebar Name or edit the Sidebar Name"
+msgstr ""
+
+#: includes/options/curated/config.php:1756
+msgid "Additional"
+msgstr ""
+
+#: includes/options/curated/config.php:1763
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/options/curated/config.php:1764
+msgid "Paste your custom CSS code"
+msgstr ""
+
+#: includes/options/curated/config.php:1767
+msgid "Don't use < style > tag , just put the CSS code."
+msgstr ""
+
+#: includes/options/curated/config.php:1773
+msgid "Tracking Code / Additional JS Code"
+msgstr ""
+
+#: includes/options/curated/config.php:1774
+msgid ""
+"Paste your Google Analytics (or other) tracking code here or another "
+"additonal Javascript code."
+msgstr ""
+
+#: includes/options/curated/config.php:1777
+msgid "Please use < script > tag before write the javascript code."
+msgstr ""
+
+#: includes/options/curated/config.php:1807
+msgid "Styling"
+msgstr ""
+
+#: includes/options/curated/config.php:1823
+msgid "Body Background"
+msgstr ""
+
+#: includes/options/curated/config.php:1824
+msgid "Body background with image, color, etc."
+msgstr ""
+
+#: includes/options/curated/config.php:1832
+msgid "Heading Font"
+msgstr ""
+
+#: includes/options/curated/config.php:1833
+msgid "Select the Heading font type."
+msgstr ""
+
+#: includes/options/curated/config.php:1849
+msgid "Content Font"
+msgstr ""
+
+#: includes/options/curated/config.php:1850
+msgid "Select the Content font type."
+msgstr ""
+
+#: includes/options/curated/config.php:1867
+msgid "Primary Color"
+msgstr ""
+
+#: includes/options/curated/config.php:1868
+msgid "Pick a Global primary color, it's for: text #hover, url, button."
+msgstr ""
+
+#: includes/options/curated/config.php:1876
+msgid "Secondary Color"
+msgstr ""
+
+#: includes/options/curated/config.php:1877
+msgid "Pick a Global secondary color, it's for: text #hover, url, button."
+msgstr ""
+
+#: includes/options/curated/config.php:1913
+msgid "Background color"
+msgstr ""
+
+#: includes/options/curated/config.php:1914
+msgid "Pick a color for top navigation background color."
+msgstr ""
+
+#: includes/options/curated/config.php:1922
+#: includes/options/curated/config.php:2352
+msgid "Text Color"
+msgstr ""
+
+#: includes/options/curated/config.php:1923
+msgid "Pick a color for top navigation text."
+msgstr ""
+
+#: includes/options/curated/config.php:1962
+msgid "Header Alignment"
+msgstr ""
+
+#: includes/options/curated/config.php:1963
+msgid "Please select header alignment"
+msgstr ""
+
+#: includes/options/curated/config.php:1973
+msgid "Navigation Typography"
+msgstr ""
+
+#: includes/options/curated/config.php:1974
+msgid "Select the Navigation Typography."
+msgstr ""
+
+#: includes/options/curated/config.php:2009
+msgid "Primary Text Color"
+msgstr ""
+
+#: includes/options/curated/config.php:2010
+msgid "Pick a color for primary menu text color."
+msgstr ""
+
+#: includes/options/curated/config.php:2042
+msgid "Submenu Text Color"
+msgstr ""
+
+#: includes/options/curated/config.php:2043
+msgid "Pick a color for Submenu text color."
+msgstr ""
+
+#: includes/options/curated/config.php:2051
+msgid "Submenu Background Color"
+msgstr ""
+
+#: includes/options/curated/config.php:2052
+msgid "Pick a color for submenu background color."
+msgstr ""
+
+#: includes/options/curated/config.php:2076
+msgid "Search Background Color"
+msgstr ""
+
+#: includes/options/curated/config.php:2077
+msgid "Pick a color for Search background color."
+msgstr ""
+
+#: includes/options/curated/config.php:2085
+msgid "Search Text Color"
+msgstr ""
+
+#: includes/options/curated/config.php:2086
+msgid "Pick a color for Search text color."
+msgstr ""
+
+#: includes/options/curated/config.php:2108
+msgid "Content Primary Color"
+msgstr ""
+
+#: includes/options/curated/config.php:2114
+msgid "Content Heading Color"
+msgstr ""
+
+#: includes/options/curated/config.php:2115
+msgid "Pick a Heading color, it's for: Title, Metas, Name."
+msgstr ""
+
+#: includes/options/curated/config.php:2123
+msgid "Content Text Color"
+msgstr ""
+
+#: includes/options/curated/config.php:2124
+msgid "Pick a Content text color, it's for: text content."
+msgstr ""
+
+#: includes/options/curated/config.php:2141
+msgid "Category Background Text"
+msgstr ""
+
+#: includes/options/curated/config.php:2142
+msgid "Pick a color for category background text."
+msgstr ""
+
+#: includes/options/curated/config.php:2291
+msgid "Footer Widgets Area Options"
+msgstr ""
+
+#: includes/options/curated/config.php:2297
+msgid "Widgets Area Background Color"
+msgstr ""
+
+#: includes/options/curated/config.php:2298
+msgid "Pick a background color for the footer widgets area."
+msgstr ""
+
+#: includes/options/curated/config.php:2306
+msgid "Widgets Heading Color"
+msgstr ""
+
+#: includes/options/curated/config.php:2307
+msgid "Pick a footer heading color for the footer widgets area."
+msgstr ""
+
+#: includes/options/curated/config.php:2315
+msgid "Widgets content Color"
+msgstr ""
+
+#: includes/options/curated/config.php:2316
+msgid "Pick a footer content color for the footer widgets area."
+msgstr ""
+
+#: includes/options/curated/config.php:2343
+msgid "Footer Copyright Background"
+msgstr ""
+
+#: includes/options/curated/config.php:2344
+msgid "Pick a background color for Footer copyright background."
+msgstr ""
+
+#: includes/options/curated/config.php:2353
+msgid "Pick a footer text color for the footer copyright area."
+msgstr ""
+
+#: includes/options/curated/config.php:2381
+msgid "Documentation"
+msgstr ""
+
+#: includes/options/curated/config.php:2496
+msgid "Section via hook"
+msgstr ""
+
+#: includes/options/curated/config.php:2497
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:399
+#: includes/plugins/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/widgets/maha-ads.php:22
+msgid "Displays Responsive Banner Ads."
+msgstr ""
+
+#: includes/widgets/maha-ads.php:31
+msgid " - Responsive Ads"
+msgstr ""
+
+#: includes/widgets/maha-ads.php:116
+msgid "Subtitle"
+msgstr ""
+
+#: includes/widgets/maha-ads.php:124
+msgid "Button Text"
+msgstr ""
+
+#: includes/widgets/maha-ads.php:129
+msgid "Button URL"
+msgstr ""
+
+#: includes/widgets/maha-ads.php:133
+msgid "Box Style:"
+msgstr ""
+
+#: includes/widgets/maha-ads.php:135
+msgid "Square"
+msgstr ""
+
+#: includes/widgets/maha-ads.php:136
+msgid "Rectangle"
+msgstr ""
+
+#: includes/widgets/maha-ads.php:140
+msgid "Text Align :"
+msgstr ""
+
+#: includes/widgets/maha-menus.php:22
+msgid "Display Navigation."
+msgstr ""
+
+#: includes/widgets/maha-menus.php:31
+msgid " - Custom Navigation"
+msgstr ""
+
+#: includes/widgets/maha-menus.php:102
+msgid "Nav:"
+msgstr ""
+
+#: includes/widgets/maha-popular-post.php:16
+msgid "Show popular post"
+msgstr ""
+
+#: includes/widgets/maha-popular-post.php:22
+msgid " - Popular Post"
+msgstr ""
+
+#: includes/widgets/maha-popular-post.php:29
+#: includes/widgets/maha-popular-post.php:160
+msgid "Popular Post"
+msgstr ""
+
+#: includes/widgets/maha-popular-post.php:96
+msgid "Week"
+msgstr ""
+
+#: includes/widgets/maha-popular-post.php:97
+msgid "Month"
+msgstr ""
+
+#: includes/widgets/maha-popular-post.php:169
+#: includes/widgets/maha-posts.php:388
+#: includes/widgets/maha-top-reviews.php:235
+msgid "Number of reviews to show:"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:16
+msgid "Show post with filters"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:22
+msgid " - Posts"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:363
+#: includes/widgets/maha-recent-posts.php:152
+#: includes/widgets/maha-top-reviews.php:223
+msgid "Category:"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:365
+#: includes/widgets/maha-recent-posts.php:154
+#: includes/widgets/maha-top-reviews.php:225
+msgid "All Categories"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:375
+msgid "Tag:"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:377
+msgid "All Tag"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:393
+msgid "Layout:"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:395
+msgid "List"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:396
+msgid "Top Review"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:401
+#: includes/widgets/maha-top-reviews.php:240
+msgid "Filter:"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:403
+msgid "Latest"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:404
+msgid "Featured"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:405
+msgid "Random"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:406
+msgid "Popular All-time"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:407
+msgid "Popular This Week"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:408
+msgid "Popular This Month"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:409
+msgid "Top All-time"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:410
+msgid "Top This Month"
+msgstr ""
+
+#: includes/widgets/maha-posts.php:411
+msgid "Top This Week"
+msgstr ""
+
+#: includes/widgets/maha-recent-posts.php:22
+msgid "Displays your Recent Posts."
+msgstr ""
+
+#: includes/widgets/maha-recent-posts.php:31
+msgid " - Recent Posts"
+msgstr ""
+
+#: includes/widgets/maha-recent-posts.php:162
+msgid "Number of posts"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:22
+msgid "Displays your Social Media with counter."
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:31
+msgid " - Social Subscribe"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:74
+msgid "Follow our twitter"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:87
+msgid "Like our Facebook"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:100
+msgid "Subscribe our Youtube"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:113
+msgid "Follow our Google+"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:126
+msgid "Follow our Instagram"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:139
+msgid "RSS Feeds"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:152
+msgid "Pin it"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:165
+msgid "Follow our blog"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:251
+msgid ""
+"If you have trouble showing social media numbers, please use your own token "
+"code in Curated Options"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:251
+msgid "Social Options"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:251
+msgid "If you still having problem, please contact our support"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:257
+msgid "Twitter ID"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:261
+msgid "Twitter Label "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:265
+msgid "Facebook ID "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:269
+msgid "Facebook Label "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:273
+msgid "Youtube Channel Type "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:274
+msgid "Username "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:275
+msgid "Channel ID "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:278
+msgid "Youtube Channel "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:282
+msgid "Youtube Label "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:286
+msgid "Google+ ID/Username "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:290
+msgid "Google+ Label "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:294
+msgid "Instagram User ID "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:296
+msgid ""
+"Instagram Username is different with Instagram ID, you can get your "
+"Instagram ID by using your Instagram Username > <a target=\"_blank\" href="
+"\"https://smashballoon.com/instagram-feed/find-instagram-user-id/\">here</a> "
+"<"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:299
+msgid "Instagram Label "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:303
+msgid "RSS url "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:307
+msgid "RSS Title "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:311
+msgid "RSS Label "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:315
+msgid "Pinterest ID"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:319
+msgid "Pinterest Label "
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:323
+msgid "Tumblr Blog Name"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:325
+msgid "e.g. example.tumblr.com"
+msgstr ""
+
+#: includes/widgets/maha-social-subscribe.php:328
+msgid "Thumblr Label "
+msgstr ""
+
+#: includes/widgets/maha-top-reviews.php:16
+msgid "Show top reviews with different filters"
+msgstr ""
+
+#: includes/widgets/maha-top-reviews.php:22
+msgid " - Top Reviews"
+msgstr ""
+
+#: includes/widgets/maha-top-reviews.php:29
+msgid "Top Reviews"
+msgstr ""
+
+#: includes/widgets/maha-top-reviews.php:243
+msgid "All-time"
+msgstr ""
+
+#: includes/widgets/maha-top-reviews.php:244
+msgid "Last Month"
+msgstr ""
+
+#: includes/widgets/maha-top-reviews.php:245
+msgid "This Week"
+msgstr ""
+
+#: includes/widgets/maha-top-reviews.php:257
+msgid "Only"
+msgstr ""
+
+#: includes/widgets/maha-top-reviews.php:263
+msgid "Only "
+msgstr ""
+
+#: page-archive.php:62
+msgid "Archives by Categories"
+msgstr ""
+
+#: page-archive.php:67
+msgid "Archives by Tags"
+msgstr ""
+
+#: page-archive.php:79
+msgid "Posts Timeline"
+msgstr ""
+
+#: page-archive.php:104
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: plugins/login-with-ajax/default/widget_in.php:12
+msgid "Hi"
+msgstr ""
+
+#: plugins/login-with-ajax/default/widget_out.php:51
+msgid "Enter username or email"
+msgstr ""
+
+#: plugins/login-with-ajax/default/widget_out.php:72
+msgid "E-mail"
+msgstr ""
+
+#: plugins/login-with-ajax/modal/widget_out.php:14
+msgid "PASSWORD RESET"
+msgstr ""
+
+#: plugins/login-with-ajax/modal/widget_out.php:27
+#: plugins/login-with-ajax/modal/widget_out.php:51
+msgid "Back to Login"
+msgstr ""
+
+#: search.php:55
+msgid "Search results for"
+msgstr ""
+
+#: searchresult.php:48
+msgid "Total search results"
+msgstr ""
+
+#: searchresult.php:48
+msgid "post."
+msgstr ""
+
+#: searchresult.php:49
+msgid "VIEW ALL RESULTS"
+msgstr ""
+
+#: single.php:98
+msgid "Pages : "
+msgstr ""
